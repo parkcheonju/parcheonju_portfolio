@@ -17,17 +17,6 @@ export default function Section1() {
                 상단부 텍스트를 입력
               </p>
             </div>
-            <div className="Section1_left-text2">
-              <p>
-                하단부 텍스트를 입력
-                <br />
-                하단부 텍스트를 입력
-              </p>
-            </div>
-            <div className="Section1_left-text3"></div>
-            <div className="Section1_left-text4">
-              <p>자기 자신을 소개하는 텍스트 공간입니다<br/>자기 자신을 소개하는 텍스트 공간입니다<br/>자기 자신을 소개하는 텍스트 공간입니다</p>
-            </div>
             <div className="Section1_left-site">
               <div className="Section1_left-btn">
                 <a href="#none">깃허브</a>
