@@ -8,7 +8,7 @@ export default function Section1() {
         <div className="Section1_container">
           <div className="Section1_left">
             <div className="Section1_left-title">
-              <h1>타이틀</h1>
+              <h1>맛있는 코드는<br/>성능도 맛있다!<br/></h1>
             </div>
             <div className="Section1_left-text1">
               <p>
