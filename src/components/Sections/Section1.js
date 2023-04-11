@@ -8,13 +8,18 @@ export default function Section1() {
         <div className="Section1_container">
           <div className="Section1_left">
             <div className="Section1_left-title">
-              <h1>맛있는 코드는<br/>성능도 맛있다!<br/></h1>
+              <h1>
+                맛있는 코드는
+                <br />
+                성능도 맛있다!
+                <br />
+              </h1>
             </div>
             <div className="Section1_left-text1">
               <p>
-                상단부 텍스트를 입력
+                코드를 요리하여
                 <br />
-                상단부 텍스트를 입력
+                성능을 맛있게!
               </p>
             </div>
             <div className="Section1_left-site">
