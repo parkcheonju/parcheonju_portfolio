@@ -68,3 +68,33 @@
   line-height: 1.625;
 }
 
+@media (min-width: 1580px) {
+  .container-xxl {
+    max-width: 1550px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
+}
+
+@media (min-width: 992px) {
+  .offset-lg-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .col-lg-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+}

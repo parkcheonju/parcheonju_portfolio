@@ -1,12 +1,13 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import "../css/Section2.css";
 
 export default function Section2() {
   return (
     <div className="Section2">
-      <div className="Section2_inner">
-        <div className="Section2_comtainer">
-          <div className="Section2_left">
+      <Container fluid="xxl" className="Section2_inner">
+        <Row className="Section2_comtainer">
+          <Col lg="3" className="Section2_left">
             <div className="Section2_left-title">
               <h2>
                 My
@@ -17,8 +18,8 @@ export default function Section2() {
             <div className="Section2_left-text">
               <p>스킬을 설명하는 공간입니다.<br/>시각적으로 매력적이고 기능적인 웹앱을 만들 수 있습니다.<br/>Figma를 이용하여 직관적이고 <br/>사용자 친화적인 인터페이스를 디자인하며, 구조를 설계합니다.</p>
             </div>
-          </div>
-          <div className="Section2_right">
+          </Col>
+          <Col lg="8" className="Section2_right offset-lg-1">
             <div className="Section2_right-container">
               <div className="Section2_right-item">
                 <img src="/images/dummyicon.png" alt="icon" />
@@ -69,9 +70,9 @@ export default function Section2() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

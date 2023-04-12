@@ -48,3 +48,19 @@
 .Section4_approach-description p{
   margin: 0 0 1.875rem;
 }
+
+@media (min-width: 1580px){
+  .container-xxl {
+    max-width: 1550px;
+  }
+}
+@media (min-width: 1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+  }
+}@media (min-width: 1200px){
+  .col-xl-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}

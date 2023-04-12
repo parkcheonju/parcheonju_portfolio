@@ -59,3 +59,37 @@
 .Section5_history-description{
   width: 50%;
 }
+
+@media (min-width: 1580px){
+  .container-xxl {
+    max-width: 1550px;
+  }
+}
+@media (min-width: 1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+  }
+}
+@media (min-width: 1200px){
+  .col-xl-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+} 
+
+@media (min-width: 992px){
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+  .col-lg-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+}
+@media (min-width: 768px){
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
