@@ -13,29 +13,41 @@ export default function Section4() {
           <Row className="Section4_bottom">
             <Col xl="4" className="Section4_bottom-approach">
               <div className="Section4_approach-title">
-                첫째
+                <span>첫째</span>
+                <h3>도전</h3>
+              </div>
+              <div className="Section4_approach-description">
+                <p>
+                  새로운 일에 두려움 없이 도전합니다.
+                  <br />
+                  예상치 못한 문제에 직면해도 긍정적인 태도로 대처합니다.
+                </p>
+              </div>
+            </Col>
+            <Col xl="4" className="Section4_bottom-approach">
+              <div className="Section4_approach-title">
+                <span>둘째</span>
                 <h3>열정</h3>
               </div>
               <div className="Section4_approach-description">
-                <p>텍스트를 입력해 주세요</p>
+                <p>
+                  처음 해보는 일에 겁먹지 않고 개발을 즐깁니다
+                  <br />
+                  배우는 것을 즐기며 능력을 최대한 발휘하기 위해 노력합니다.
+                </p>
               </div>
             </Col>
             <Col xl="4" className="Section4_bottom-approach">
               <div className="Section4_approach-title">
-                둘째
-                <h3>창의성</h3>
-              </div>
-              <div className="Section4_approach-description">
-                <p>텍스트를 입력해 주세요</p>
-              </div>
-            </Col>
-            <Col xl="4" className="Section4_bottom-approach">
-              <div className="Section4_approach-title">
-                셋째
+                <span>셋째</span>
                 <h3>성실함</h3>
               </div>
               <div className="Section4_approach-description">
-                <p>텍스트를 입력해 주세요</p>
+                <p>
+                  맡은 일에 대해 책임감을 가지고 업무를 수행합니다.
+                  <br />
+                  세심하게 업무의 성공을 위해 최선을 다하고자 합니다.
+                </p>
               </div>
             </Col>
           </Row>

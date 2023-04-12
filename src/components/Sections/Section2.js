@@ -16,7 +16,7 @@ export default function Section2() {
               </h2>
             </div>
             <div className="Section2_left-text">
-              <p>스킬을 설명하는 공간입니다.<br/>시각적으로 매력적이고 기능적인 웹앱을 만들 수 있습니다.<br/>Figma를 이용하여 직관적이고 <br/>사용자 친화적인 인터페이스를 디자인하며, 구조를 설계합니다.</p>
+              <p>시각적으로 매력적이고 기능적인 웹앱을 만들 수 있습니다.<br/>Figma를 이용하여 직관적이고 <br/>사용자 친화적인 인터페이스를 디자인하며, 구조를 설계합니다.</p>
             </div>
           </Col>
           <Col lg="8" className="Section2_right offset-lg-1">
@@ -29,9 +29,6 @@ export default function Section2() {
                 <div className="Section2_right-content">
                   <p>We build and activate brands throung cultural insight &amp;amp; strategic vision.</p>
                 </div>
-                <div className="Section2_right-link">
-                  <img src="/images/dummyicon.png" alt="linkicon" />
-                </div>
               </div>
               <div className="Section2_right-item">
                 <img src="/images/dummyicon.png" alt="icon" />
@@ -40,9 +37,6 @@ export default function Section2() {
                 </div>
                 <div className="Section2_right-content">
                   <p> We build and activate brands throung cultural insight &amp;amp; strategic vision.</p>
-                </div>
-                <div className="Section2_right-link">
-                  <img src="/images/dummyicon.png" alt="linkicon" />
                 </div>
               </div>
               <div className="Section2_right-item">
@@ -53,9 +47,6 @@ export default function Section2() {
                 <div className="Section2_right-content">
                   <p> We build and activate brands throung cultural insight &amp;amp; strategic vision.</p>
                 </div>
-                <div className="Section2_right-link">
-                  <img src="/images/dummyicon.png" alt="linkicon" />
-                </div>
               </div>
               <div className="Section2_right-item">
                 <img src="/images/dummyicon.png" alt="icon" />
@@ -64,9 +55,6 @@ export default function Section2() {
                 </div>
                 <div className="Section2_right-content">
                   <p> We build and activate brands throung cultural insight &amp;amp; strategic vision.</p>
-                </div>
-                <div className="Section2_right-link">
-                  <img src="/images/dummyicon.png" alt="linkicon" />
                 </div>
               </div>
             </div>

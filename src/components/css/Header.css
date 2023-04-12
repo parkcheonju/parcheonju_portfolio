@@ -2,6 +2,8 @@
   width: 100%;
   position: fixed;
   border-top: 10px solid #e03d24;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
 }
 .Header_inner {
   max-width: 1550px;

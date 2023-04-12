@@ -35,8 +35,12 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+.Section4_approach-title span{
+  margin-left: 10px;
+}
 .Section4_approach-title h3{
   margin-top: 0.3125rem;
+
   font-size: 3.75rem;
   font-weight: 700;
   line-height: 1.2;
@@ -61,6 +65,6 @@
 }@media (min-width: 1200px){
   .col-xl-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 30%;
   }
 }
