@@ -15,7 +15,7 @@
   height: 88px;
 }
 .Section4_top h2{
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1.1;
   font-weight: 700;
 } 
@@ -35,22 +35,16 @@
   font-weight: 700;
   text-transform: uppercase;
 }
-.Section4_approach-title span{
-  margin-left: 10px;
-}
 .Section4_approach-title h3{
   margin-top: 0.3125rem;
 
-  font-size: 3.75rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
 }
 .Section4_approach-description{
   font-size: 1.125rem;
   margin-top: 2.5rem;
-}
-.Section4_approach-description p{
-  margin: 0 0 1.875rem;
 }
 
 @media (min-width: 1580px){

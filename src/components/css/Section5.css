@@ -21,7 +21,7 @@
   flex-direction: column;
 }
 .Section5_left-title h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 1.1;
 }
@@ -53,11 +53,14 @@
 .Section5_history-year{
   width: 20%;
 }
+
 .Section5_history-marker{
-  width: 20%;
+  width: 200px;
+  margin-left: 10px;
 }
 .Section5_history-description{
   width: 50%;
+  margin-left: 10px;
 }
 
 @media (min-width: 1580px){

@@ -17,7 +17,7 @@
   flex-direction: column;
 }
 .Section2_left-title h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 1.1;
 }
@@ -27,7 +27,7 @@
 }
 .Section2_left-text p {
   margin: 0 0 1.875rem;
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 .Section2_right {

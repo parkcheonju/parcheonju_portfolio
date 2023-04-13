@@ -1,6 +1,6 @@
 .Section1_inner {
   max-width: 1550px;
-  height: 100vh;
+  height: 80vh;
   padding: 160px 0;
   margin: 0 auto;
   display: flex;
@@ -28,7 +28,7 @@
 }
 
 .Section1_left-title h1 {
-  font-size: 7em;
+  font-size: 5em;
 }
 
 .Section1_left-text1 {
