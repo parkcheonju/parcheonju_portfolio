@@ -17,9 +17,9 @@
   justify-content: space-between;
   align-items: center;
 }
-.Section3_top-title {
-  font-size: 3.5rem;
-  font-weight: 600;
+.Section3_top-title h2{
+  font-size: 4rem;
+  font-weight: 700;
   line-height: 1.1;
 }
 .Section3_top-list {
@@ -92,46 +92,23 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  background-color: red;
 }
 
 .Section3_card-img{
   width: 300px;
   height: 300px;
-  background-color: bisque;
+  background-color: oldlace;
 }
 .Section3_card-right {
   width: 100%;
   background-color: white;
 }
 .Section3_card-right ul{
-  padding: 30px 0 0 30px;
+  padding-left: 30px;
 }
-/* .Section3_bottom-card{
-  width: 30%;
-  height: 100%;
+.Section3_card-right ul li{
+  line-height: 2em;
 }
-.Section3_bottom-item{
-  width: 100%;
-  height: 80%;
-  background-color: white;
-}
-.Section3_item-title{
-  margin-top: 30px;
-  color: white;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
-.Section3_item-description{
-  color: white;
-  margin-top: 10px;
-}
-.Section3_item-description h4{
-  font-size: 1.875rem;
-  font-weight: 700;
-  line-height: 1.3;
-}
- */
 
 @media (min-width: 1580px) {
   .container-xxl {

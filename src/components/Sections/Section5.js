@@ -22,7 +22,7 @@ export default function Section5() {
           <Col lg="8" className="Section5_right">
             <div className="Section5_right-history Section5_pd-bottom30 Section5_pd-top30">
               <div className="Section5_history-container">
-                <div className="Section5_history-year">2022.11 ~ 2023.05</div>
+                <div className="Section5_history-year">2022.11 ~</div>
                 <div className="Section5_history-marker">
                   <img src="/images/green.png" alt="linkicon" />
                 </div>
@@ -31,24 +31,27 @@ export default function Section5() {
                   <br />
                   웹&앱 SW개발자 양성과정 수료
                 </div>
+                <div className="Section5_history-end">2023.05</div>
               </div>
             </div>
             <div className="Section5_right-history Section5_history-line">
               <div className="Section5_history-container">
-                <div className="Section5_history-year">2019.10 ~ 2022.10</div>
+                <div className="Section5_history-year">2019.10 ~</div>
                 <div className="Section5_history-marker">
                   <img src="/images/samsung.png" alt="linkicon" />
                 </div>
                 <div className="Section5_history-description">삼성웰스토리 외식부 조리사 근무</div>
+                <div className="Section5_history-end">2022.10</div>
               </div>
             </div>
             <div className="Section5_right-history Section5_pd-top30">
               <div className="Section5_history-container">
-                <div className="Section5_history-year">2014.03~2019.03</div>
+                <div className="Section5_history-year">2014.03 ~</div>
                 <div className="Section5_history-marker">
                   <img src="/images/university.png" alt="linkicon" />
                 </div>
                 <div className="Section5_history-description">청강문화산업대학 조리학과 졸업</div>
+                <div className="Section5_history-end">2019.03</div>
               </div>
             </div>
           </Col>
