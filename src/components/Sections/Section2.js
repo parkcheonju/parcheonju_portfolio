@@ -10,8 +10,6 @@ export default function Section2() {
           <Col lg="3" className="Section2_left">
             <div className="Section2_left-title">
               <h2>
-                My
-                <br />
                 Skills
               </h2>
             </div>

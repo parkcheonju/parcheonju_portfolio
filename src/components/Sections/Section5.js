@@ -10,9 +10,7 @@ export default function Section5() {
           <Col lg="4" className="Section5_left">
             <div className="Section5_left-title">
               <h2>
-                My
-                <br />
-                history
+                History
               </h2>
             </div>
             <div className="Section5_left-text">
