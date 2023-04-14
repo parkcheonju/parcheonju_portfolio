@@ -4,6 +4,7 @@
   padding: 160px 0;
   margin: 0 auto;
   display: flex;
+  background: url(../../../public/images/test.png) no-repeat 1px 1px;
 }
 
 .Section1_container{

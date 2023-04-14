@@ -29,7 +29,8 @@ export default function Section1() {
               </div>
             </div>
           </Col>
-          <div className="Section1_right"></div>
+          <div className="Section1_right">
+          </div>
         </Row>
       </Container>
     </div>
