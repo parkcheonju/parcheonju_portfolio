@@ -18,25 +18,156 @@ export default function Section3() {
           </div>
           <div className="Section3_bottom">
             <div className="Section3_bottom-container">
-              <div className="Section3_bottom-card">
-                <div className="Section3_bottom-item">img</div>
-                <div className="Section3_item-title">HTML/CSS/JS/JQ</div>
-                <div className="Section3_item-description">
-                  <h4>영동군청</h4>
+              <div className="Section3_container-card">
+                <div className="Section3_card-wrap">
+                  <div className="Section3_card-top">
+                    <h4>Portfolio Details</h4>
+                    <div className="Section3_card-title">
+                      <div className="Section3_title-name">Project1 / 영동군청</div>
+                    </div>
+                    <div className="Section3_card-info">
+                      <div className="section3_info-site">
+                        기획서 보기
+                      </div>
+                      <div className="section3_info-site">
+                        <span>깃허브 보기</span>
+                      </div>
+                      <div className="section3_info-site">
+                        <span>사이트 보기</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="Section3_card-bottom">
+                    <div className="Section3_card-left">
+                      <div className="Section3_card-img"></div>
+                    </div>
+                    <div className="Section3_card-right">
+                      <ul>
+                        <li>구현기술</li>
+                        <li>작업기간</li>
+                        <li>배포매체</li>
+                        <li>구현기술</li>
+                        <li>본인기여도</li>
+                        <li>브라우저 호환성</li>
+                        <li>페이지수</li>
+                        <li>특징</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="Section3_bottom-card">
-                <div className="Section3_bottom-item">img</div>
-                <div className="Section3_item-title">REACT/NODE.JS</div>
-                <div className="Section3_item-description">
-                  <h4>PERPET</h4>
+              <div className="Section3_container-card">
+                <div className="Section3_card-wrap">
+                  <div className="Section3_card-top">
+                    <h4>Portfolio Details</h4>
+                    <div className="Section3_card-title">
+                      <div className="Section3_title-name">Project1 / 영동군청</div>
+                    </div>
+                    <div className="Section3_card-info">
+                      <div className="section3_info-site">
+                        기획서 보기
+                      </div>
+                      <div className="section3_info-site">
+                        <span>깃허브 보기</span>
+                      </div>
+                      <div className="section3_info-site">
+                        <span>사이트 보기</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="Section3_card-bottom">
+                    <div className="Section3_card-left">
+                      <div className="Section3_card-img"></div>
+                    </div>
+                    <div className="Section3_card-right">
+                      <ul>
+                        <li>구현기술</li>
+                        <li>작업기간</li>
+                        <li>배포매체</li>
+                        <li>구현기술</li>
+                        <li>본인기여도</li>
+                        <li>브라우저 호환성</li>
+                        <li>페이지수</li>
+                        <li>특징</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="Section3_bottom-card">
-                <div className="Section3_bottom-item">img</div>
-                <div className="Section3_item-title">React</div>
-                <div className="Section3_item-description">
-                  <h4>Portfolio</h4>
+              <div className="Section3_container-card">
+                <div className="Section3_card-wrap">
+                  <div className="Section3_card-top">
+                    <h4>Portfolio Details</h4>
+                    <div className="Section3_card-title">
+                      <div className="Section3_title-name">Project1 / 영동군청</div>
+                    </div>
+                    <div className="Section3_card-info">
+                      <div className="section3_info-site">
+                        기획서 보기
+                      </div>
+                      <div className="section3_info-site">
+                        <span>깃허브 보기</span>
+                      </div>
+                      <div className="section3_info-site">
+                        <span>사이트 보기</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="Section3_card-bottom">
+                    <div className="Section3_card-left">
+                      <div className="Section3_card-img"></div>
+                    </div>
+                    <div className="Section3_card-right">
+                      <ul>
+                        <li>구현기술</li>
+                        <li>작업기간</li>
+                        <li>배포매체</li>
+                        <li>구현기술</li>
+                        <li>본인기여도</li>
+                        <li>브라우저 호환성</li>
+                        <li>페이지수</li>
+                        <li>특징</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="Section3_container-card">
+                <div className="Section3_card-wrap">
+                  <div className="Section3_card-top">
+                    <h4>Portfolio Details</h4>
+                    <div className="Section3_card-title">
+                      <div className="Section3_title-name">Project1 / 영동군청</div>
+                    </div>
+                    <div className="Section3_card-info">
+                      <div className="section3_info-site">
+                        기획서 보기
+                      </div>
+                      <div className="section3_info-site">
+                        <span>깃허브 보기</span>
+                      </div>
+                      <div className="section3_info-site">
+                        <span>사이트 보기</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="Section3_card-bottom">
+                    <div className="Section3_card-left">
+                      <div className="Section3_card-img"></div>
+                    </div>
+                    <div className="Section3_card-right">
+                      <ul>
+                        <li>구현기술</li>
+                        <li>작업기간</li>
+                        <li>배포매체</li>
+                        <li>구현기술</li>
+                        <li>본인기여도</li>
+                        <li>브라우저 호환성</li>
+                        <li>페이지수</li>
+                        <li>특징</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

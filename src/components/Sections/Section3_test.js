@@ -55,7 +55,7 @@ export default function Section3() {
                   <div className="Section3_card-top">
                     <h4>Portfolio Details</h4>
                     <div className="Section3_card-title">
-                      <div className="Section3_title-name">Project1 / 영동군청</div>
+                      <div className="Section3_title-name">Project2 / Project</div>
                     </div>
                     <div className="Section3_card-info">
                       <div className="section3_info-site">기획서 보기</div>
@@ -91,7 +91,7 @@ export default function Section3() {
                   <div className="Section3_card-top">
                     <h4>Portfolio Details</h4>
                     <div className="Section3_card-title">
-                      <div className="Section3_title-name">Project1 / 영동군청</div>
+                      <div className="Section3_title-name">Project3 / Project</div>
                     </div>
                     <div className="Section3_card-info">
                       <div className="section3_info-site">기획서 보기</div>
@@ -127,7 +127,7 @@ export default function Section3() {
                   <div className="Section3_card-top">
                     <h4>Portfolio Details</h4>
                     <div className="Section3_card-title">
-                      <div className="Section3_title-name">Project1 / 영동군청</div>
+                      <div className="Section3_title-name">Project4 / Project</div>
                     </div>
                     <div className="Section3_card-info">
                       <div className="section3_info-site">기획서 보기</div>

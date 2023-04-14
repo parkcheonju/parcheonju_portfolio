@@ -1,4 +1,4 @@
-.Section3{
+.Section3 {
   background-color: #fa4529;
 }
 .Section3_inner {
@@ -6,23 +6,23 @@
   height: 100%;
   margin: 0 auto;
 }
-.Section3_container{
-  height: 690px;
+.Section3_container {
+  height: 100%;
   padding-bottom: 160px;
 }
-.Section3_top{
+.Section3_top {
   width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.Section3_top-title{
+.Section3_top-title {
   font-size: 3.5rem;
   font-weight: 600;
   line-height: 1.1;
 }
-.Section3_top-list{
+.Section3_top-list {
   display: flex;
 }
 .Section3_top-list img {
@@ -30,15 +30,84 @@
   width: 30px;
   height: 24px;
 }
-.Section3_bottom{
+.Section3_bottom {
   margin-top: 100px;
 }
-.Section3_bottom-container{
-  height: 510px;
+.Section3_bottom-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
-.Section3_bottom-card{
+.Section3_container-card{
+  padding: 60px 0;
+}
+.Section3_card-wrap {
+  width: 700px;
+  height: 100%;
+  background-color: white;
+}
+
+.Section3_card-top {
+  width: 100%;
+  text-align: center;
+}
+.Section3_card-top h4 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.3;
+  padding: 10px 0;
+}
+
+.Section3_card-title {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.Section3_title-name {
+  width: 130px;
+  padding: 10px 20px;
+  background-color: #F4F3F9;
+}
+
+.Section3_card-info {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.section3_info-site {
+  width: 120px;
+  padding: 10px 20px;
+  text-align : center;
+  border: 1px solid black;
+}
+
+.Section3_card-bottom {
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+}
+
+.Section3_card-left {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+}
+
+.Section3_card-img{
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+}
+.Section3_card-right {
+  width: 100%;
+  background-color: white;
+}
+.Section3_card-right ul{
+  padding: 30px 0 0 30px;
+}
+/* .Section3_bottom-card{
   width: 30%;
   height: 100%;
 }
@@ -62,6 +131,7 @@
   font-weight: 700;
   line-height: 1.3;
 }
+ */
 
 @media (min-width: 1580px) {
   .container-xxl {
