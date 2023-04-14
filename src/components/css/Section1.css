@@ -1,10 +1,10 @@
 .Section1_inner {
   max-width: 1550px;
-  height: 70vh;
+  height: 80vh;
   padding: 160px 0;
   margin: 0 auto;
   display: flex;
-  background: url(../../../public/images/test.png) no-repeat 1px 1px;
+  background: url(../../../public/images/test.png) no-repeat 800px 0px;
 }
 
 .Section1_container{
