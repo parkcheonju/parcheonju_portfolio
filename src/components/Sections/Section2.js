@@ -9,9 +9,7 @@ export default function Section2() {
         <Row className="Section2_comtainer">
           <Col lg="3" className="Section2_left">
             <div className="Section2_left-title">
-              <h2>
-                Skills
-              </h2>
+              <h2>Skills</h2>
             </div>
             <div className="Section2_left-text">
               <p>시각적으로 매력적이면서 기능적인 웹과 앱을 개발할 수 있습니다</p>

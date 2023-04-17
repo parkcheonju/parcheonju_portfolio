@@ -1,13 +1,14 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "../css/Header.css";
+import Lottie from "../Lottie/lottie";
 
 export default function Header() {
   return (
     <div className="Header">
       <Container fluid="xxl" className="Header_inner">
         <div className="Header_logo">
-          <img src="/images/logo.png" alt="logo" />
+          <Lottie />
         </div>
         <div className="Header_nav">
           <div className="Header_nav-container">

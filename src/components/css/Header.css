@@ -1,6 +1,6 @@
 .Header {
   width: 100%;
-  border-top: 10px solid #e03d24;
+  border-top: 10px solid #fa4529;
   background-color: rgba(255, 255, 255, 0.5);
 }
 .Header_inner {
@@ -13,10 +13,9 @@
 .Header_logo {
   margin-left: 5px;
 }
-.Header_logo img {
-  width: 180px;
+.Header_logo div{
+  overflow: hidden;
 }
-
 .Header_nav {
   width: 91%;
   display: flex;

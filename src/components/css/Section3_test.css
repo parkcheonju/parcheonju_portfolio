@@ -1,5 +1,5 @@
 .Section3 {
-  background-color: #fa4529;
+  background-color: #fa45291c;
 }
 .Section3_inner {
   max-width: 1550px;
@@ -31,7 +31,7 @@
   height: 24px;
 }
 .Section3_bottom {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 .Section3_bottom-container {
   display: flex;

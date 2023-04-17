@@ -37,13 +37,10 @@ export default function Section3() {
                     </div>
                     <div className="Section3_card-right">
                       <ul>
-                        <li>구현기술 : </li>
-                        <li>작업기간 : </li>
-                        <li>배포매체 : </li>
-                        <li>구현기술 : </li>
-                        <li>본인기여도 : </li>
-                        <li>브라우저 호환성 : </li>
-                        <li>페이지수 : </li>
+                        <li>구현기술 : HTML / CSS / JQuery</li>
+                        <li>작업기간 : 3주</li>
+                        <li>배포매체 : Github Pages</li>
+                        <li>본인기여도 : 100 %</li>
                         <li>특징 : </li>
                       </ul>
                     </div>
@@ -55,7 +52,7 @@ export default function Section3() {
                   <div className="Section3_card-top">
                     <h4>Portfolio Details</h4>
                     <div className="Section3_card-title">
-                      <div className="Section3_title-name">Project2 / Project</div>
+                      <div className="Section3_title-name">Project2 / PERPET</div>
                     </div>
                     <div className="Section3_card-info">
                       <div className="section3_info-site">기획서 보기</div>
@@ -73,13 +70,10 @@ export default function Section3() {
                     </div>
                     <div className="Section3_card-right">
                       <ul>
-                        <li>구현기술 : </li>
-                        <li>작업기간 : </li>
-                        <li>배포매체 : </li>
-                        <li>구현기술 : </li>
-                        <li>본인기여도 : </li>
-                        <li>브라우저 호환성 : </li>
-                        <li>페이지수 : </li>
+                        <li>구현기술 : React </li>
+                        <li>작업기간 : 3주</li>
+                        <li>배포매체 : Vercel , Cloudtype</li>
+                        <li>본인기여도 : 25 % </li>
                         <li>특징 : </li>
                       </ul>
                     </div>
