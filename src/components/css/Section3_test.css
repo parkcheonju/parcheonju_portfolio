@@ -1,14 +1,10 @@
-.Section3 {
-  background-color: #fa45291c;
-}
 .Section3_inner {
   max-width: 1550px;
   height: 100%;
   margin: 0 auto;
 }
 .Section3_container {
-  height: 100%;
-  padding-bottom: 160px;
+  padding-top: 160px;
 }
 .Section3_top {
   width: 100%;
@@ -16,102 +12,90 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 120px;
 }
 .Section3_top-title h2{
   font-size: 4rem;
   font-weight: 700;
   line-height: 1.1;
 }
-.Section3_top-list {
+
+.Section3_container-flex{
   display: flex;
+  justify-content: space-between;
 }
-.Section3_top-list img {
-  padding: 0 70px 0 10px;
-  width: 30px;
-  height: 24px;
-}
-.Section3_bottom {
-  margin-top: 40px;
-}
-.Section3_bottom-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.Section3_container-card{
-  padding: 60px 0;
-}
-.Section3_card-wrap {
-  width: 700px;
-  height: 620px; 
-  border-radius: 30px;
-  background-color: white;
+.Section3_project {
+  position: relative;
+  overflow: hidden;
 }
 
-.Section3_card-top {
-  width: 100%;
-  text-align: center;
-  padding-top: 30px;
+/*===========Section3_project-top===========*/
+.Section3_project-top {
+  position: relative;
+  overflow: hidden;
+  width: 450px;
+  height: 600px;
+  z-index: 4;
 }
-.Section3_card-top h4 {
-  font-size: 1.875rem;
+.Section3_project-top:hover{
+  z-index: 1;
+}
+.Section3_top-text {
+  padding: 1.25rem 1.5rem;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.Section3_text-color {
+  color: white;
+  font-size: 0.875rem;
+  margin-bottom: 0.9375rem;
+  text-transform: uppercase;
+}
+.Section3_project-name {
   font-weight: 700;
-  line-height: 1.3;
-  padding: 10px 0;
 }
-
-.Section3_card-title {
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 0;
+.Section3_project-name::after {
+  content: "/";
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
-
 .Section3_title-name {
-  width: 140px;
-  padding: 10px 20px;
-  border-radius: 30px;
-  background-color: #F4F3F9;
+  font-size: 1.75rem;
+  line-height: 1.16;
+  color: white;
 }
 
-.Section3_card-info {
-  padding-top: 10px;
-  display: flex;
-  justify-content: space-evenly;
-}
-.section3_info-site {
-  width: 120px;
-  padding: 10px 20px;
-  text-align : center;
-  border-radius: 30px;
-  border: 1px solid black;
+/*===========Section3_project-bottom===========*/
+
+.Section3_project-bottom{
+  width: 450px;
+  z-index: 3;
 }
 
-.Section3_card-bottom {
-  width: 100%;
-  padding: 60px 0;
-  display: flex;
+.Section3_project-bottom:hover {
+  z-index: 4;
+  background-color: red;
+  transform: translateY(0);
 }
 
-.Section3_card-left {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
+.Section3_bottom-header{
+  padding: 1.25rem 1.5rem;
 }
 
-.Section3_card-img{
-  width: 300px;
-  height: 300px;
-  background-color: oldlace;
+.Section3_header-style {
+  color: black;
+  font-size: 0.875rem;
+  margin-bottom: 0.9375rem;
+  text-transform: uppercase;
 }
-.Section3_card-right {
-  width: 100%;
-  background-color: white;
-}
-.Section3_card-right ul{
-  padding-left: 30px;
-}
-.Section3_card-right ul li{
-  line-height: 2em;
+
+.Section3_bottom-review {
+  color: white;
+  font-size: 1.75rem;
+  line-height: 1.16;
 }
 
 @media (min-width: 1580px) {
@@ -127,5 +111,15 @@
   .container-xl,
   .container-xxl {
     max-width: 1320px;
+  }
+}
+@media (min-width: 992px) {
+  .Section3_project-bottom {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
   }
 }

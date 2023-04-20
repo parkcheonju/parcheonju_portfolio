@@ -1,5 +1,5 @@
 .Section3 {
-  background-color: #fa4529;
+  background-color: #fa45291c;
 }
 .Section3_inner {
   max-width: 1550px;
@@ -17,9 +17,9 @@
   justify-content: space-between;
   align-items: center;
 }
-.Section3_top-title {
-  font-size: 3.5rem;
-  font-weight: 600;
+.Section3_top-title h2{
+  font-size: 4rem;
+  font-weight: 700;
   line-height: 1.1;
 }
 .Section3_top-list {
@@ -31,25 +31,27 @@
   height: 24px;
 }
 .Section3_bottom {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 .Section3_bottom-container {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .Section3_container-card{
   padding: 60px 0;
 }
 .Section3_card-wrap {
   width: 700px;
-  height: 100%;
+  height: 620px; 
+  border-radius: 30px;
   background-color: white;
 }
 
 .Section3_card-top {
   width: 100%;
   text-align: center;
+  padding-top: 30px;
 }
 .Section3_card-top h4 {
   font-size: 1.875rem;
@@ -65,13 +67,14 @@
 }
 
 .Section3_title-name {
-  width: 130px;
+  width: 140px;
   padding: 10px 20px;
+  border-radius: 30px;
   background-color: #F4F3F9;
 }
 
 .Section3_card-info {
-  padding: 10px 0;
+  padding-top: 10px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -79,12 +82,13 @@
   width: 120px;
   padding: 10px 20px;
   text-align : center;
+  border-radius: 30px;
   border: 1px solid black;
 }
 
 .Section3_card-bottom {
   width: 100%;
-  padding: 30px 0;
+  padding: 60px 0;
   display: flex;
 }
 
@@ -92,46 +96,23 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  background-color: red;
 }
 
 .Section3_card-img{
   width: 300px;
   height: 300px;
-  background-color: bisque;
+  background-color: oldlace;
 }
 .Section3_card-right {
   width: 100%;
   background-color: white;
 }
 .Section3_card-right ul{
-  padding: 30px 0 0 30px;
+  padding-left: 30px;
 }
-/* .Section3_bottom-card{
-  width: 30%;
-  height: 100%;
+.Section3_card-right ul li{
+  line-height: 2em;
 }
-.Section3_bottom-item{
-  width: 100%;
-  height: 80%;
-  background-color: white;
-}
-.Section3_item-title{
-  margin-top: 30px;
-  color: white;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
-.Section3_item-description{
-  color: white;
-  margin-top: 10px;
-}
-.Section3_item-description h4{
-  font-size: 1.875rem;
-  font-weight: 700;
-  line-height: 1.3;
-}
- */
 
 @media (min-width: 1580px) {
   .container-xxl {
