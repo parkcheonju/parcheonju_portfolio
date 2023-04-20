@@ -11,6 +11,7 @@ const Lottie = () => {
       autoplay: true, // boolean
     });
   }, []);
-  return <div id="ani" style={{ width: 200, height: 200, }}></div>;
+  return <div id="ani" style={{ width: 80, height: 80, }}></div>;
 };
+
 export default Lottie;
