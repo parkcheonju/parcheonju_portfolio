@@ -19,7 +19,36 @@ export default function Section3() {
                 <div class="grid-item filter-1 filter-4">
                   <div className="Section3_project">
                     <div className="Section3_project-top">
-                      <img src="/images/dummy.png" alt="" />
+                      <img src="/images/project_1.png" alt="project" />
+                      <div className="Section3_top-text">
+                        <div className="Section3_text-color">
+                          <span class="Section3_project-name">영동군청 리뉴얼</span>
+                          <span class="Section3_project-day">2022.12</span>
+                        </div>
+                        <h3 class="Section3_title-name">영동군청</h3>
+                      </div>
+                    </div>
+                    <div className="Section3_project-bottom">
+                      <div className="Section3_bottom-header">
+                        <div className="Section3_header-style">
+                          <span class="Section3_project-name">영동군청 리뉴얼</span>
+                          <span class="Section3_project-day">2022.12</span>
+                        </div>
+                        <h3 className="Section3_bottom-review">
+                          <a href="https://parkcheonju.github.io/project/" target="_blank" rel="noopener noreferrer">
+                            Review project
+                          </a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col className="col-xl-4 col-lg-4">
+                <div class="grid-item filter-1 filter-4">
+                  <div className="Section3_project">
+                    <div className="Section3_project-top">
+                      <img src="/images/project_1.png" alt="project" />
                       <div className="Section3_top-text">
                         <div className="Section3_text-color">
                           <span class="Section3_project-name">영동군청 리뉴얼</span>
@@ -46,34 +75,7 @@ export default function Section3() {
                 <div class="grid-item filter-1 filter-4">
                   <div className="Section3_project">
                     <div className="Section3_project-top">
-                      <img src="/images/dummy.png" alt="" />
-                      <div className="Section3_top-text">
-                        <div className="Section3_text-color">
-                          <span class="Section3_project-name">영동군청 리뉴얼</span>
-                          <span class="Section3_project-day">2022.12</span>
-                        </div>
-                        <h3 class="Section3_title-name">영동군청</h3>
-                      </div>
-                    </div>
-                    <div className="Section3_project-bottom">
-                      <div className="Section3_bottom-header">
-                        <div className="Section3_header-style">
-                          <span class="Section3_project-name">영동군청 리뉴얼</span>
-                          <span class="Section3_project-day">2022.12</span>
-                        </div>
-                        <h3 className="Section3_bottom-review">
-                          <a href="#none">Review product BWIB</a>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Col>
-              <Col className="col-xl-4 col-lg-4">
-                <div class="grid-item filter-1 filter-4">
-                  <div className="Section3_project">
-                    <div className="Section3_project-top">
-                      <img src="/images/dummy.png" alt="" />
+                      <img src="/images/project_1.png" alt="project" />
                       <div className="Section3_top-text">
                         <div className="Section3_text-color">
                           <span class="Section3_project-name">영동군청 리뉴얼</span>
@@ -99,7 +101,6 @@ export default function Section3() {
             </div>
           </Row>
         </div>
-
       </Container>
     </div>
   );

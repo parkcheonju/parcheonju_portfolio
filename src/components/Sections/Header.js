@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "../css/Header.css";
-import Lottie from "../Lottie/lottie";
+import {Lottie} from "../Lottie/lottie";
 
 export default function Header() {
   return (

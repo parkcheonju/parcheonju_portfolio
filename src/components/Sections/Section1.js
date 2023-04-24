@@ -25,15 +25,16 @@ export default function Section1() {
             </Col>
             <div className="Section1_left-site">
               <div className="Section1_left-btn">
-                <a href="#none">깃허브</a>
+                <a href="https://github.com/parkcheonju" target="_blank" rel="noopener noreferrer">
+                  깃허브
+                </a>
               </div>
               <div className="Section1_left-btn2">
                 <a href="#none">이력서</a>
               </div>
             </div>
           </Col>
-          <div className="Section1_right">
-          </div>
+          <div className="Section1_right"></div>
         </Row>
       </Container>
     </div>

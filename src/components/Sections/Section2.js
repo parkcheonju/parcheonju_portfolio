@@ -1,4 +1,5 @@
 import React from "react";
+import { Html, Js, LottieReact, Figma } from "../Lottie/lottie";
 import { Container, Row, Col } from "react-bootstrap";
 import "../css/Section2.css";
 
@@ -18,7 +19,7 @@ export default function Section2() {
           <Col lg="8" className="Section2_right offset-lg-1">
             <div className="Section2_right-container">
               <div className="Section2_right-item">
-                <img src="/images/dummyicon.png" alt="icon" />
+                <Html />
                 <div className="Section2_right-title">
                   <h5>HTML/CSS</h5>
                 </div>
@@ -29,7 +30,7 @@ export default function Section2() {
                 </div>
               </div>
               <div className="Section2_right-item">
-                <img src="/images/dummyicon.png" alt="icon" />
+                <Js />
                 <div className="Section2_right-title">
                   <h5>Javascript</h5>
                 </div>
@@ -41,7 +42,7 @@ export default function Section2() {
                 </div>
               </div>
               <div className="Section2_right-item">
-                <img src="/images/dummyicon.png" alt="icon" />
+                <LottieReact />
                 <div className="Section2_right-title">
                   <h5>React</h5>
                 </div>
@@ -54,7 +55,7 @@ export default function Section2() {
                 </div>
               </div>
               <div className="Section2_right-item">
-                <img src="/images/dummyicon.png" alt="icon" />
+                <Figma />
                 <div className="Section2_right-title">
                   <h5>Figma</h5>
                 </div>
