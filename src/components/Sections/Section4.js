@@ -1,17 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import AOS from "aos";
 import "../css/Section4.css";
 
 export default function Section4() {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className="Section4">
-      <Container fluid="container-xxl" className="Section4_inner Section4_pd">
+      <Container fluid="container-xxl" className="Section4_inner Section4_pd" >
         <div className="Section4_container">
-          <div className="Section4_top">
+          <div className="Section4_top" data-aos="fade-up" data-aos-duration="3000">
             <h2>Approach</h2>
           </div>
           <Row className="Section4_bottom">
-            <Col xl="4" className="Section4_bottom-approach">
+            <Col xl="4" className="Section4_bottom-approach" data-aos="fade-up" data-aos-duration="3000">
               <div className="Section4_approach-title">
                 <span>첫째</span>
                 <h3>도전</h3>
@@ -24,7 +28,7 @@ export default function Section4() {
                 </p>
               </div>
             </Col>
-            <Col xl="4" className="Section4_bottom-approach">
+            <Col xl="4" className="Section4_bottom-approach" data-aos="fade-up" data-aos-duration="3000">
               <div className="Section4_approach-title">
                 <span>둘째</span>
                 <h3>열정</h3>
@@ -37,7 +41,7 @@ export default function Section4() {
                 </p>
               </div>
             </Col>
-            <Col xl="4" className="Section4_bottom-approach">
+            <Col xl="4" className="Section4_bottom-approach" data-aos="fade-up" data-aos-duration="3000">
               <div className="Section4_approach-title">
                 <span>셋째</span>
                 <h3>성실함</h3>

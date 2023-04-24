@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import AOS from "aos";
 import "../css/Section3_test.css";
 
 export default function Section3() {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className="Section3">
-      <Container fluid="container-xxl" className="Section3_inner">
+      <Container fluid="container-xxl" className="Section3_inner" data-aos="fade-up" data-aos-duration="3000">
         <div className="Section3_container">
           <div className="Section3_top">
             <div className="Section3_top-title">
@@ -15,9 +19,9 @@ export default function Section3() {
               <p>제작한 프로젝트를 한 눈에 보실 수 있습니다.</p>
             </div>
           </div>
-          <Row className="gx-3.75 gy-7.5">
+          <Row className="gx-3.75 gy-7.5" data-aos="fade-up" data-aos-duration="3000">
             <div className="Section3_container-flex">
-              <Col className="col-xl-4 col-lg-4">
+              <Col className="col-xl-4 col-lg-4" >
                 <div className="grid-item filter-1 filter-4">
                   <div className="Section3_project">
                     <div className="Section3_project-top">

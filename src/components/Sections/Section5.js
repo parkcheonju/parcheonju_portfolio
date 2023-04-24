@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import AOS from "aos";
 import "../css/Section5.css";
 
 export default function Section5() {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className="Section5">
       <Container fluid="container-xxl" className="Section5_inner">
         <Row className="Section5_container">
-          <Col lg="4" className="Section5_left">
+          <Col lg="4" className="Section5_left" data-aos="fade-up" data-aos-duration="3000">
             <div className="Section5_left-title">
               <h2>History</h2>
             </div>
@@ -15,9 +19,9 @@ export default function Section5() {
               <p>경력사항을 한 눈에 보실 수 있습니다.</p>
             </div>
           </Col>
-          <Col lg="8" className="Section5_right">
+          <Col lg="8" className="Section5_right" >
             <div className="Section5_right-history Section5_pd-bottom30 Section5_pd-top30">
-              <div className="Section5_history-container">
+              <div className="Section5_history-container" data-aos="fade-up" data-aos-duration="3000">
                 <div className="Section5_history-year">2014.03 ~</div>
                 <div className="Section5_history-marker">
                   <img src="/images/university.png" alt="linkicon" />
@@ -27,7 +31,7 @@ export default function Section5() {
               </div>
             </div>
             <div className="Section5_right-history Section5_history-line">
-              <div className="Section5_history-container">
+              <div className="Section5_history-container" data-aos="fade-up" data-aos-duration="3000">
                 <div className="Section5_history-year">2019.10 ~</div>
                 <div className="Section5_history-marker">
                   <img src="/images/samsung.png" alt="linkicon" />
@@ -37,7 +41,7 @@ export default function Section5() {
               </div>
             </div>
             <div className="Section5_right-history Section5_pd-top30">
-              <div className="Section5_history-container">
+              <div className="Section5_history-container" data-aos="fade-up" data-aos-duration="3000">
                 <div className="Section5_history-year">2022.11 ~</div>
                 <div className="Section5_history-marker">
                   <img src="/images/green.png" alt="linkicon" />

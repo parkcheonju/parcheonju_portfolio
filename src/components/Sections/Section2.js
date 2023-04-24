@@ -1,18 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Html, Js, LottieReact, Figma } from "../Lottie/lottie";
 import { Container, Row, Col } from "react-bootstrap";
+import AOS from "aos";
 import "../css/Section2.css";
 
 export default function Section2() {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className="Section2">
       <Container fluid="xxl" className="Section2_inner">
         <Row className="Section2_comtainer">
           <Col lg="3" className="Section2_left">
-            <div className="Section2_left-title">
+            <div className="Section2_left-title" data-aos="fade-up" data-aos-duration="3000">
               <h2>Skills</h2>
             </div>
-            <div className="Section2_left-text">
+            <div className="Section2_left-text" data-aos="fade-up" data-aos-duration="3000">
               <p>
                 기능적이면서도 매력적인 디자인의
                 <br />
@@ -22,7 +26,7 @@ export default function Section2() {
           </Col>
           <Col lg="8" className="Section2_right offset-lg-1">
             <div className="Section2_right-container">
-              <div className="Section2_right-item">
+              <div className="Section2_right-item" data-aos="fade-up" data-aos-duration="3000">
                 <Html />
                 <div className="Section2_right-title">
                   <h5>HTML/CSS</h5>
@@ -33,7 +37,7 @@ export default function Section2() {
                   </p>
                 </div>
               </div>
-              <div className="Section2_right-item">
+              <div className="Section2_right-item" data-aos="fade-up" data-aos-duration="3000">
                 <Js />
                 <div className="Section2_right-title">
                   <h5>Javascript</h5>
@@ -45,7 +49,7 @@ export default function Section2() {
                   </p>
                 </div>
               </div>
-              <div className="Section2_right-item">
+              <div className="Section2_right-item" data-aos="fade-up" data-aos-duration="3000">
                 <LottieReact />
                 <div className="Section2_right-title">
                   <h5>React</h5>
@@ -58,7 +62,7 @@ export default function Section2() {
                   </p>
                 </div>
               </div>
-              <div className="Section2_right-item">
+              <div className="Section2_right-item" data-aos="fade-up" data-aos-duration="3000">
                 <Figma />
                 <div className="Section2_right-title">
                   <h5>Figma</h5>
