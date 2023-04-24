@@ -11,8 +11,10 @@ export default function Section3() {
             <div className="Section3_top-title">
               <h2>Projects</h2>
             </div>
+            <div className="Section3_left-text">
+              <p>제작한 프로젝트를 한 눈에 보실 수 있습니다.</p>
+            </div>
           </div>
-
           <Row class="gx-3.75 gy-7.5">
             <div className="Section3_container-flex">
               <Col className="col-xl-4 col-lg-4">

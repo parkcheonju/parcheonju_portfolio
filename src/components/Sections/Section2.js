@@ -13,7 +13,11 @@ export default function Section2() {
               <h2>Skills</h2>
             </div>
             <div className="Section2_left-text">
-              <p>시각적으로 매력적이면서 기능적인 웹과 앱을 개발할 수 있습니다</p>
+              <p>
+                기능적이면서도 매력적인 디자인의
+                <br />
+                웹과 앱을 개발할 수 있습니다.
+              </p>
             </div>
           </Col>
           <Col lg="8" className="Section2_right offset-lg-1">

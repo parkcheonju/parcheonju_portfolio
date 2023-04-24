@@ -13,11 +13,11 @@ export default function Header() {
         <div className="Header_nav">
           <div className="Header_nav-container">
             <div className="Header_nav-info" id="color-white">
-              HOME
+              <a href="#none">HOME</a>
             </div>
-            <div className="Header_nav-info">PORTFOLIO</div>
-            <div className="Header_nav-info">BLOG</div>
-            <div className="Header_nav-info">PAGES</div>
+            <div className="Header_nav-info"><a href="#none">PORTFOLIO</a></div>
+            <div className="Header_nav-info"><a href="#none">BLOG</a></div>
+            <div className="Header_nav-info"><a href="#none">PAGES</a></div>
           </div>
         </div>
         <div className="Header_menu">

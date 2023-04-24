@@ -12,6 +12,7 @@ export default function Footer() {
             <div className="Footer_contact-text">박천주</div>
             <div className="Footer_contact-adress">Adress : 49, Hanbit-ro, Dongdaemun-gu, Seoul</div>
             <div className="Footer_contact-email">Email : cjswne@gmail.com</div>
+            <div className="Footer_contact-call">Call : 010 - 6880 - 2880</div>
           </Col>
           <Col md="6" className="Footer_contact-2">
             <h4>Link</h4>

@@ -40,8 +40,11 @@
 }
 .Footer_contact-email {
   font-size: 1.5rem;
+  margin-bottom: 0.8rem;
 }
-
+.Footer_contact-call {
+  font-size: 1.5rem;
+}
 .Footer_contact-2 h4 {
   margin-bottom: 2.5rem;
   font-size: 1.875rem;
