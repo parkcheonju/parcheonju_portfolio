@@ -15,26 +15,26 @@ export default function Section3() {
               <p>제작한 프로젝트를 한 눈에 보실 수 있습니다.</p>
             </div>
           </div>
-          <Row class="gx-3.75 gy-7.5">
+          <Row className="gx-3.75 gy-7.5">
             <div className="Section3_container-flex">
               <Col className="col-xl-4 col-lg-4">
-                <div class="grid-item filter-1 filter-4">
+                <div className="grid-item filter-1 filter-4">
                   <div className="Section3_project">
                     <div className="Section3_project-top">
                       <img src="/images/project_1.png" alt="project" />
                       <div className="Section3_top-text">
                         <div className="Section3_text-color">
-                          <span class="Section3_project-name">영동군청 리뉴얼</span>
-                          <span class="Section3_project-day">2022.12</span>
+                          <span className="Section3_project-name">영동군청 리뉴얼</span>
+                          <span className="Section3_project-day">2022.12</span>
                         </div>
-                        <h3 class="Section3_title-name">영동군청</h3>
+                        <h3 className="Section3_title-name">영동군청</h3>
                       </div>
                     </div>
                     <div className="Section3_project-bottom">
                       <div className="Section3_bottom-header">
                         <div className="Section3_header-style">
-                          <span class="Section3_project-name">영동군청 리뉴얼</span>
-                          <span class="Section3_project-day">2022.12</span>
+                          <span className="Section3_project-name">영동군청 리뉴얼</span>
+                          <span className="Section3_project-day">2022.12</span>
                         </div>
                         <h3 className="Section3_bottom-review">
                           <a href="https://parkcheonju.github.io/project/" target="_blank" rel="noopener noreferrer">
@@ -47,26 +47,28 @@ export default function Section3() {
                 </div>
               </Col>
               <Col className="col-xl-4 col-lg-4">
-                <div class="grid-item filter-1 filter-4">
+                <div className="grid-item filter-1 filter-4">
                   <div className="Section3_project">
                     <div className="Section3_project-top">
                       <img src="/images/project_1.png" alt="project" />
                       <div className="Section3_top-text">
                         <div className="Section3_text-color">
-                          <span class="Section3_project-name">영동군청 리뉴얼</span>
-                          <span class="Section3_project-day">2022.12</span>
+                          <span className="Section3_project-name">영동군청 리뉴얼</span>
+                          <span className="Section3_project-day">2022.12</span>
                         </div>
-                        <h3 class="Section3_title-name">영동군청</h3>
+                        <h3 className="Section3_title-name">영동군청</h3>
                       </div>
                     </div>
                     <div className="Section3_project-bottom">
                       <div className="Section3_bottom-header">
                         <div className="Section3_header-style">
-                          <span class="Section3_project-name">영동군청 리뉴얼</span>
-                          <span class="Section3_project-day">2022.12</span>
+                          <span className="Section3_project-name">영동군청 리뉴얼</span>
+                          <span className="Section3_project-day">2022.12</span>
                         </div>
                         <h3 className="Section3_bottom-review">
-                          <a href="#none">Review product BWIB</a>
+                          <a href="https://parkcheonju.github.io/project/" target="_blank" rel="noopener noreferrer">
+                            Review project
+                          </a>
                         </h3>
                       </div>
                     </div>
@@ -74,26 +76,28 @@ export default function Section3() {
                 </div>
               </Col>
               <Col className="col-xl-4 col-lg-4">
-                <div class="grid-item filter-1 filter-4">
+                <div className="grid-item filter-1 filter-4">
                   <div className="Section3_project">
                     <div className="Section3_project-top">
                       <img src="/images/project_1.png" alt="project" />
                       <div className="Section3_top-text">
                         <div className="Section3_text-color">
-                          <span class="Section3_project-name">영동군청 리뉴얼</span>
-                          <span class="Section3_project-day">2022.12</span>
+                          <span className="Section3_project-name">영동군청 리뉴얼</span>
+                          <span className="Section3_project-day">2022.12</span>
                         </div>
-                        <h3 class="Section3_title-name">영동군청</h3>
+                        <h3 className="Section3_title-name">영동군청</h3>
                       </div>
                     </div>
                     <div className="Section3_project-bottom">
                       <div className="Section3_bottom-header">
                         <div className="Section3_header-style">
-                          <span class="Section3_project-name">영동군청 리뉴얼</span>
-                          <span class="Section3_project-day">2022.12</span>
+                          <span className="Section3_project-name">영동군청 리뉴얼</span>
+                          <span className="Section3_project-day">2022.12</span>
                         </div>
                         <h3 className="Section3_bottom-review">
-                          <a href="#none">Review product BWIB</a>
+                          <a href="https://parkcheonju.github.io/project/" target="_blank" rel="noopener noreferrer">
+                            Review project
+                          </a>
                         </h3>
                       </div>
                     </div>
