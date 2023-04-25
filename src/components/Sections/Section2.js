@@ -12,11 +12,11 @@ export default function Section2() {
     <div className="Section2">
       <Container fluid="xxl" className="Section2_inner">
         <Row className="Section2_comtainer">
-          <Col lg="3" className="Section2_left">
-            <div className="Section2_left-title" data-aos="fade-up" data-aos-duration="3000">
+          <Col lg="3" className="Section2_left" data-aos="fade-up" data-aos-delay="500">
+            <div className="Section2_left-title">
               <h2>Skills</h2>
             </div>
-            <div className="Section2_left-text" data-aos="fade-up" data-aos-duration="3000">
+            <div className="Section2_left-text">
               <p>
                 기능적이면서도 매력적인 디자인의
                 <br />
@@ -25,8 +25,8 @@ export default function Section2() {
             </div>
           </Col>
           <Col lg="8" className="Section2_right offset-lg-1">
-            <div className="Section2_right-container">
-              <div className="Section2_right-item" data-aos="fade-up" data-aos-duration="3000">
+            <div className="Section2_right-container" >
+              <div className="Section2_right-item" data-aos="fade-up" data-aos-delay="500">
                 <Html />
                 <div className="Section2_right-title">
                   <h5>HTML/CSS</h5>
@@ -37,7 +37,7 @@ export default function Section2() {
                   </p>
                 </div>
               </div>
-              <div className="Section2_right-item" data-aos="fade-up" data-aos-duration="3000">
+              <div className="Section2_right-item" data-aos="fade-up" data-aos-delay="500">
                 <Js />
                 <div className="Section2_right-title">
                   <h5>Javascript</h5>
@@ -49,7 +49,7 @@ export default function Section2() {
                   </p>
                 </div>
               </div>
-              <div className="Section2_right-item" data-aos="fade-up" data-aos-duration="3000">
+              <div className="Section2_right-item" data-aos="fade-up" data-aos-delay="500">
                 <LottieReact />
                 <div className="Section2_right-title">
                   <h5>React</h5>
@@ -62,7 +62,7 @@ export default function Section2() {
                   </p>
                 </div>
               </div>
-              <div className="Section2_right-item" data-aos="fade-up" data-aos-duration="3000">
+              <div className="Section2_right-item" data-aos="fade-up" data-aos-delay="500">
                 <Figma />
                 <div className="Section2_right-title">
                   <h5>Figma</h5>

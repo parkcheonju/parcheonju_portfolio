@@ -11,7 +11,7 @@ export default function Section5() {
     <div className="Section5">
       <Container fluid="container-xxl" className="Section5_inner">
         <Row className="Section5_container">
-          <Col lg="4" className="Section5_left" data-aos="fade-up" data-aos-duration="3000">
+          <Col lg="4" className="Section5_left" data-aos="fade-up" data-aos-delay="500">
             <div className="Section5_left-title">
               <h2>History</h2>
             </div>
@@ -21,7 +21,7 @@ export default function Section5() {
           </Col>
           <Col lg="8" className="Section5_right" >
             <div className="Section5_right-history Section5_pd-bottom30 Section5_pd-top30">
-              <div className="Section5_history-container" data-aos="fade-up" data-aos-duration="3000">
+              <div className="Section5_history-container" data-aos="fade-up" data-aos-delay="500">
                 <div className="Section5_history-year">2014.03 ~</div>
                 <div className="Section5_history-marker">
                   <img src="/images/university.png" alt="linkicon" />
@@ -31,7 +31,7 @@ export default function Section5() {
               </div>
             </div>
             <div className="Section5_right-history Section5_history-line">
-              <div className="Section5_history-container" data-aos="fade-up" data-aos-duration="3000">
+              <div className="Section5_history-container" data-aos="fade-up" data-aos-delay="500">
                 <div className="Section5_history-year">2019.10 ~</div>
                 <div className="Section5_history-marker">
                   <img src="/images/samsung.png" alt="linkicon" />
@@ -41,7 +41,7 @@ export default function Section5() {
               </div>
             </div>
             <div className="Section5_right-history Section5_pd-top30">
-              <div className="Section5_history-container" data-aos="fade-up" data-aos-duration="3000">
+              <div className="Section5_history-container" data-aos="fade-up" data-aos-delay="500">
                 <div className="Section5_history-year">2022.11 ~</div>
                 <div className="Section5_history-marker">
                   <img src="/images/green.png" alt="linkicon" />

@@ -12,9 +12,9 @@ export default function Section1() {
   return (
     <div className="Section1">
       <Container fluid="xxl" className="Section1_inner">
-        <Row className="Section1_container" data-aos="fade-up" data-aos-duration="3000">
+        <Row className="Section1_container">
           <Col xl="9" className="Section1_left">
-            <div className="Section1_left-title">
+            <div className="Section1_left-title" data-aos="fade-up" data-aos-delay="300">
               <h1>
                 맛있는 코드는
                 <br />
@@ -23,13 +23,15 @@ export default function Section1() {
               </h1>
             </div>
             <Col xl="8" className="Section1_left-text1">
-              <p>
-                코드를 요리하여
-                <br />
-                성능을 맛있게!
-              </p>
+              <div data-aos="fade-up" data-aos-delay="1000">
+                <p>
+                  코드를 요리하여
+                  <br />
+                  성능을 맛있게!
+                </p>
+              </div>
             </Col>
-            <div className="Section1_left-site">
+            <div className="Section1_left-site" data-aos="fade-up" data-aos-delay="300">
               <div className="Section1_left-btn">
                 <a href="https://github.com/parkcheonju" target="_blank" rel="noopener noreferrer">
                   깃허브

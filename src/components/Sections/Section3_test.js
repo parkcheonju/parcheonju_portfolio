@@ -9,8 +9,8 @@ export default function Section3() {
   });
   return (
     <div className="Section3">
-      <Container fluid="container-xxl" className="Section3_inner" data-aos="fade-up" data-aos-duration="3000">
-        <div className="Section3_container">
+      <Container fluid="container-xxl" className="Section3_inner">
+        <div className="Section3_container" data-aos="fade-up" data-aos-delay="500">
           <div className="Section3_top">
             <div className="Section3_top-title">
               <h2>Projects</h2>
