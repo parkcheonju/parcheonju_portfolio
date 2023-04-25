@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "../css/Section1.css";
 
+
 export default function Section1() {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className="Section1">
       <Container fluid="xxl" className="Section1_inner">
-        <Row className="Section1_container">
+        <Row className="Section1_container" data-aos="fade-up" data-aos-duration="3000">
           <Col xl="9" className="Section1_left">
             <div className="Section1_left-title">
               <h1>
