@@ -1,9 +1,22 @@
-import React, { useEffect } from "react";
+import React, { useEffect} from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import AOS from "aos";
 import "../css/Section3.css";
 
 export default function Section3() {
+  // const bg = useRef(null);
+  // const thumb = useRef(null);
+  // const img = useRef(null);
+
+  // function scroll() {
+  //   const bgH = bg.current.clientHeight;
+  //   const imgH = img.current.clientHeight;
+  //   const scrollVal = bgH - imgH;
+  //   thumb.current.style.top = scrollVal + "px";
+
+  //   console.log(bgH, imgH, scrollVal);
+  // }
+
   useEffect(() => {
     AOS.init();
   });
@@ -21,7 +34,38 @@ export default function Section3() {
           </div>
           <Row className="gx-3.75 gy-7.5" data-aos="fade-up" data-aos-duration="3000">
             <div className="Section3_container-flex">
-              <Col className="col-xl-4 col-lg-4" >
+              {/* <Col className="col-xl-4 col-lg-4">
+                <div className="grid-item filter-1 filter-4">
+                  <div className="Section3_project">
+                    <div className="Section3_project-top">
+                      <div className="Section3_top-text">
+                        <div className="Section3_text-color">
+                          <span className="Section3_project-name">영동군청 리뉴얼</span>
+                          <span className="Section3_project-day">2022.12</span>
+                        </div>
+                        <h3 className="Section3_title-name">영동군청</h3>
+                      </div>
+                      <div className="wrap">
+                        <div
+                          ref={bg}
+                          className="bg"
+                          onMouseOver={() => {
+                            scroll();
+                          }}
+                          onMouseLeave={() => {
+                            thumb.current.style.top = 0;
+                          }}
+                        >
+                          <a ref={thumb} href="#none" className="thumb">
+                            <span ref={img}></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Col> */}
+              <Col className="col-xl-4 col-lg-4">
                 <div className="grid-item filter-1 filter-4">
                   <div className="Section3_project">
                     <div className="Section3_project-top">
