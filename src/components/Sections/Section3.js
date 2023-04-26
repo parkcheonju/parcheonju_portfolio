@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import AOS from "aos";
-import "../css/Section3_test.css";
+import "../css/Section3.css";
 
 export default function Section3() {
   useEffect(() => {
