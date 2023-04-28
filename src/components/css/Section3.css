@@ -13,7 +13,7 @@
   flex-direction: column;
   padding-bottom: 120px;
 }
-.Section3_top-title h2{
+.Section3_top-title h2 {
   font-size: 4rem;
   font-weight: 700;
   line-height: 1.1;
@@ -26,7 +26,7 @@
   margin: 0 0 1.875rem;
   font-size: 1rem;
 }
-.Section3_container-flex{
+.Section3_container-flex {
   display: flex;
   justify-content: space-between;
 }
@@ -35,16 +35,13 @@
   overflow: hidden;
 }
 
-
-
-
 /*===========Section3_project-top===========*/
 
-.Section3_project-top img{
+.Section3_project-top img {
   width: 100%;
   height: 100%;
 }
-.Section3_project-top:hover{
+.Section3_project-top:hover {
   z-index: 1;
 }
 .Section3_top-text {
@@ -77,8 +74,7 @@
 
 /*===========Section3_project-bottom===========*/
 
-
-.Section3_bottom-header{
+.Section3_bottom-header {
   padding: 1.25rem 1.5rem;
 }
 
@@ -93,6 +89,54 @@
   color: white;
   font-size: 1.75rem;
   line-height: 1.16;
+}
+
+.Section3_bottom-ul {
+  margin-top: 30px;
+  font-size: 1.25rem;
+}
+.Section3_bottom-ul li{
+  color: white;
+}
+
+.Section3_bottom-btn {
+  padding-top: 200px;
+  display: flex;
+}
+
+.Section3_left-btn a {
+  padding: 20px 40px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition: all 0.2s ease;
+}
+
+.Section3_left-btn a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.Section3_left-btn2{
+  margin-left: 20px;
+}
+
+.Section3_left-btn2 a {
+  padding: 20px 40px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition: all 0.2s ease;
+}
+
+.Section3_left-btn2 a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
 }
 
 @media (min-width: 1580px) {
