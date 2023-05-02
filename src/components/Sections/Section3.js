@@ -113,7 +113,7 @@ export default function Section3() {
                     <li>배포 github</li>
                   </ul>
                 </div>
-                <div className='mg_top60'>
+                <div className="mg_top60">
                   <h4>주요 기능</h4>
                   <ul>
                     <li>- 사용기술 : Html, Css, Js, JQuery</li>
@@ -202,14 +202,15 @@ export default function Section3() {
                     <li>배포 : github, vercel, cloudtype</li>
                   </ul>
                 </div>
-                <div className='mg_top60'>
+                <div className="mg_top60">
                   <h4>주요 기능</h4>
                   <ul>
                     <li>- 사용기술 : Html, Css, React, Node.js, Figma</li>
+                    <li>- PERPET PROJECT 기획</li>
                     <li>- kakao login 기능 구현</li>
-                    <li>- swiper 활용하여 캐로셀 기능 구현</li>
-                    <li>- 상품 통신 기능 활용, 상품 업로드 기능 구현</li>
-                    <li>- 상품 판매 시, 상품 품절 기능 구현</li>
+                    <li>- NodeJs + Express 사용, Web-server 구축 </li>
+                    <li>- NodeJs + Multer 파일 업로드 처리</li>
+                    <li>- axios RESTful API 요청을 보내고 응답 값 파싱 및 처리</li>
                   </ul>
                 </div>
               </Col>
