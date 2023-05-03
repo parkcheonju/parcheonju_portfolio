@@ -4,7 +4,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "../css/Section1.css";
 
-
 export default function Section1() {
   useEffect(() => {
     AOS.init();
@@ -25,9 +24,9 @@ export default function Section1() {
             <Col xl="8" className="Section1_left-text1">
               <div data-aos="fade-up" data-aos-delay="1000">
                 <p>
-                  코드를 요리하여
+                  고객 만족도를 높이기 위해
                   <br />
-                  성능을 맛있게!
+                  세심한 서비스를 제작하겠습니다!
                 </p>
               </div>
             </Col>
