@@ -106,7 +106,7 @@ export default function Section3() {
               </Col>
               <Col className="col-xl-6 col-lg-6">
                 <div>
-                  <h4>영동군청 리뉴얼</h4>
+                  <h3>영동군청 리뉴얼</h3>
                   <ul>
                     <li>제작기간 3주</li>
                     <li>기여도 100%</li>
@@ -114,7 +114,7 @@ export default function Section3() {
                   </ul>
                 </div>
                 <div className="mg_top60">
-                  <h4>주요 기능</h4>
+                  <h3>주요 기능</h3>
                   <ul>
                     <li>- 사용기술 : Html, Css, Js, JQuery</li>
                     <li>- jQury를 이용하여 게시판 탭 이동 기능</li>
@@ -195,7 +195,7 @@ export default function Section3() {
               </Col>
               <Col className="col-xl-6 col-lg-6">
                 <div>
-                  <h4>PROJECT - PERPET</h4>
+                  <h3>PROJECT - PERPET</h3>
                   <ul>
                     <li>제작기간 : 3주</li>
                     <li>기여도 : 35%</li>
@@ -203,14 +203,14 @@ export default function Section3() {
                   </ul>
                 </div>
                 <div className="mg_top60">
-                  <h4>주요 기능</h4>
+                  <h3>주요 기능</h3>
                   <ul>
                     <li>- 사용기술 : Html, Css, React, Node.js, Figma</li>
-                    <li>- PERPET PROJECT 기획</li>
-                    <li>- kakao login 기능 구현</li>
+                    <li>- PERPET Project기획</li>
+                    <li>- Kakao Login 기능 구현</li>
                     <li>- NodeJs + Express 사용, Web-server 구축 </li>
                     <li>- NodeJs + Multer 파일 업로드 처리</li>
-                    <li>- axios RESTful API 요청을 보내고 응답 값 파싱 및 처리</li>
+                    <li>- Axios RESTful API 요청을 보내고 응답 값 파싱 및 처리</li>
                   </ul>
                 </div>
               </Col>
