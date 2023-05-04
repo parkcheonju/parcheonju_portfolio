@@ -16,14 +16,16 @@ export default function Section6() {
                 <h3>조리전문가</h3>
               </div>
               <div className="Section6_approach-description">
-                <p>2013 - 국제요리대회 4인 라이브 부분 금상</p>
-                <p>2014 - 국제요리대회 1인 전시 부분 은상</p>
-                <p>2015 - 현역 입대 조리병 근무</p>
-                <p>2016 - 한식조리자격증 취득</p>
-                <p>2017 - 양식조리자격증 취득</p>
-                <p>2018 - 제주신화월드 인턴쉽</p>
-                <p>2019 - 삼성웰스토리 입사</p>
-                <p>2022 - 삼성웰스토리 사원 평가 EX등급</p>
+                <ul>
+                  <li>2013 - 국제요리대회 4인 라이브 부분 금상</li>
+                  <li>2014 - 국제요리대회 1인 전시 부분 은상</li>
+                  <li>2015 - 현역 입대 조리병 근무</li>
+                  <li>2016 - 한식조리자격증 취득</li>
+                  <li>2017 - 양식조리자격증 취득</li>
+                  <li>2018 - 제주신화월드 인턴쉽</li>
+                  <li>2019 - 삼성웰스토리 입사</li>
+                  <li>2022 - 삼성웰스토리 사원 평가 EX등급</li>
+                </ul>
               </div>
             </Col>
             <Col xl="6" className="Section6_bottom-approach">
@@ -32,8 +34,10 @@ export default function Section6() {
                 <h3>프론트엔드 개발자</h3>
               </div>
               <div className="Section6_approach-description">
-                <p>2022- 프로젝트기반 프론트엔드(React,Vue) 웹&앱 SW개발자 과정 시작</p>
-                <p>2023- 어떤 "성과"를 원하십니까?</p>
+                <ul>
+                  <li>2022- 프로젝트기반 프론트엔드(React,Vue) 웹&앱 SW개발자 과정 시작</li>
+                  <li>2023- 어떤 "성과"를 원하십니까?</li>
+                </ul>
               </div>
             </Col>
           </Row>
