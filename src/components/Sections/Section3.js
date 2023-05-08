@@ -226,7 +226,7 @@ export default function Section3() {
                   <h2>Vue.js Toy Project - Visual Canvas</h2>
                   <ul className="Section3_bottom-ul2">
                     <li className="Section3_bottom-li2">1. 구현기술 : Html, Css, Vue.js, Node.js</li>
-                    <li>2. 1인 토이 프로젝트 (기여도 100%)</li>
+                    <li>2. 개인 프로젝트 (기여도 100%)</li>
                     <li>3. Vue.js 제공 문법 사용 (v-if, v-for 등)</li>
                     <li>4. NodeJs + Express 사용, Server Multer 파일 업로드 로직 구축</li>
                     <li>5. Axios RESTful API 요청을 보내고 응답 값 파싱 및 처리</li>
