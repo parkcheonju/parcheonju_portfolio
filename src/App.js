@@ -14,9 +14,9 @@ function App() {
     <Header />
     <Section1 />  
     <Section6 />  
-    <Section2 /> 
     <Section3 /> 
     <Section4 /> 
+    <Section2 /> 
     <Section5 /> 
     <Footer /> 
     </>

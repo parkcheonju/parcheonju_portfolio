@@ -51,7 +51,7 @@
 .Section5_history-year{
   width: 10%;
   text-align: left;
-}
+}col-xl-6
 .Section5_history-end{
   width: 10%;
   text-align: right;
@@ -79,7 +79,6 @@
 @media (min-width: 1200px){
   .col-xl-6 {
     flex: 0 0 auto;
-    width: 50%;
   }
 } 
 
