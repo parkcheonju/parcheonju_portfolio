@@ -24,9 +24,9 @@ export default function Section1() {
             <Col xl="8" className="Section1_left-text1">
               <div data-aos="fade-up" data-aos-delay="1000">
                 <p>
-                  고객 만족도를 높이기 위해
+                  사이드 이펙트를 잡아
                   <br />
-                  세심한 서비스를 제작하겠습니다!
+                  성능의 감칠맛을 살렸습니다.
                 </p>
               </div>
             </Col>

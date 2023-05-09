@@ -160,6 +160,9 @@
   border-top: 2px solid gray;
 }
 .Section3_bottom-li2{
+  margin-top: 5px;
+}
+.mt-30{
   margin-top: 30px;
 }
 @media (min-width: 1580px) {
