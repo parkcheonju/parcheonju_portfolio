@@ -149,6 +149,11 @@
 .Section3_bottom-dsc{
   margin: 30px 0 0 20px;
 }
+.Section3_bottom-dsc span{
+  color: gray;
+  font-size: 12px;
+}
+
 .Section3_bottom-ul2{
   width: 410px;
   margin: 20px 0;

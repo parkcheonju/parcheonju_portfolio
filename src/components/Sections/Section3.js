@@ -105,11 +105,11 @@ export default function Section3() {
                   <div className="Section3_bottom-btn2">
                     <div className="Section3_left-btn">
                       <a href="https://github.com/parkcheonju/project" target="_blank" rel="noopener noreferrer">
-                        깃허브
+                        깃허브 바로가기
                       </a>
                     </div>
                     <div className="Section3_left-btn2">
-                      <a href="https://parkcheonju.github.io/project/">페이지</a>
+                      <a href="https://parkcheonju.github.io/project/">페이지 바로가기</a>
                     </div>
                   </div>
                 </div>
@@ -170,11 +170,11 @@ export default function Section3() {
                   <div className="Section3_bottom-btn2">
                     <div className="Section3_left-btn">
                       <a href="https://github.com/parkcheonju/react_perpet-front" target="_blank" rel="noopener noreferrer">
-                        깃허브
+                        깃허브 바로가기
                       </a>
                     </div>
                     <div className="Section3_left-btn2">
-                      <a href="https://react-perpet-front.vercel.app/">페이지</a>
+                      <a href="https://react-perpet-front.vercel.app/">페이지 바로가기</a>
                     </div>
                   </div>
                 </div>
@@ -235,11 +235,11 @@ export default function Section3() {
                   <div className="Section3_bottom-btn2">
                     <div className="Section3_left-btn">
                       <a href="https://github.com/parkcheonju/vue_sns_project" target="_blank" rel="noopener noreferrer">
-                        깃허브
+                        깃허브 바로가기
                       </a>
                     </div>
                     <div className="Section3_left-btn2">
-                      <a href="https://vue-sns-project-psi35kw8e-parkcheonju.vercel.app/">페이지</a>
+                      <a href="https://vue-sns-project-psi35kw8e-parkcheonju.vercel.app/">페이지 바로가기</a>
                     </div>
                   </div>
                 </div>
