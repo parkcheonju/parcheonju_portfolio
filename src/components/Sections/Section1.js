@@ -37,7 +37,7 @@ export default function Section1() {
                 </a>
               </div>
               <div className="Section1_left-btn2">
-                <a href="#none">이력서</a>
+                <a href="https://docs.google.com/document/d/1OfY1v3XOsVrikwZKIMZte3HPyvTAMXJz/edit?usp=sharing&ouid=108809604076029378011&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">이력서</a>
               </div>
             </div>
           </Col>
