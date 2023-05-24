@@ -82,7 +82,7 @@ export default function Section3() {
       id: 6,
       projectName: "PortFolio",
       projectDate: "2023.05",
-      imageSrc: "/images/portFolio.png",
+      imageSrc: "/images/portfolio.png",
       description1: "1. 구현기술 : Html, Css, React, Lottie, EmailJs",
       description2: "2. 개인 프로젝트 (기여도 100%)",
       description3: "3. React useEffect Hook 활용 구조 작성",
