@@ -4,10 +4,30 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "../css/Section1.css";
 
+const data = [
+  {
+    text: "깃허브 바로가기",
+    link: "https://github.com/parkcheonju",
+  },
+  {
+    text: "이력서 바로가기",
+    link: "https://docs.google.com/document/d/1OfY1v3XOsVrikwZKIMZte3HPyvTAMXJz/edit?usp=sharing&ouid=108809604076029378011&rtpof=true&sd=true",
+  },
+  {
+    text: "블로그 바로가기",
+    link: "https://cjswn0701.tistory.com/",
+  },
+  {
+    text: "코드노트 바로가기",
+    link: "https://www.notion.so/085b4ee26d9c4d1e9a60128f3fe395c0?v=49c77f2320ad467ea2ada1cce3da59b9",
+  },
+];
+
 export default function Section1() {
   useEffect(() => {
     AOS.init();
   });
+
   return (
     <div className="Section1">
       <Container fluid="xxl" className="Section1_inner">
@@ -15,7 +35,7 @@ export default function Section1() {
           <Col xl="9" className="Section1_left">
             <div className="Section1_left-title" data-aos="fade-up" data-aos-delay="300">
               <h1>
-                맛있는 코드는
+                잘만든 코드는
                 <br />
                 성능도 맛있다!
                 <br />
@@ -31,14 +51,13 @@ export default function Section1() {
               </div>
             </Col>
             <div className="Section1_left-site" data-aos="fade-up" data-aos-delay="300">
-              <div className="Section1_left-btn">
-                <a href="https://github.com/parkcheonju" target="_blank" rel="noopener noreferrer">
-                  깃허브
-                </a>
-              </div>
-              <div className="Section1_left-btn2">
-                <a href="https://docs.google.com/document/d/1OfY1v3XOsVrikwZKIMZte3HPyvTAMXJz/edit?usp=sharing&ouid=108809604076029378011&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">이력서</a>
-              </div>
+              {data.map((item, index) => (
+                <div key={index} className={`Section1_left-btn`}>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                    {item.text}
+                  </a>
+                </div>
+              ))}
             </div>
           </Col>
           <div className="Section1_right"></div>

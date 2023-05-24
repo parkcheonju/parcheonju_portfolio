@@ -1,13 +1,13 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "../css/Header.css";
-import {Lottie} from "../Lottie/lottie";
+// import {Lottie} from "../Lottie/lottie";
 
 export default function Header() {
   return (
     <div className="Header">
       <Container fluid="xxl" className="Header_inner">
-        <div className="Header_logo">
+        {/* <div className="Header_logo">
           <Lottie />
         </div>
         <div className="Header_nav">
@@ -23,7 +23,7 @@ export default function Header() {
         <div className="Header_menu">
           <div>search</div>
           <div>menu</div>
-        </div>
+        </div> */}
       </Container>
     </div>
   );

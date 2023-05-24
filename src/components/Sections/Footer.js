@@ -1,6 +1,5 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import AOS from "aos";
 import emailjs from "@emailjs/browser";
 import "../css/Footer.css";
 
@@ -21,10 +20,6 @@ export default function Footer() {
       }
     );
   };
-
-  useEffect(() => {
-    AOS.init();
-  });
   return (
     <div className="Footer">
       <Container fluid="xxl" className="Footer_inner">

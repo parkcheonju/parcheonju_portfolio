@@ -5,6 +5,8 @@ import htmlAni from "./html.json";
 import jsAni from "./js.json";
 import reactAni from "./react.json";
 import figmaAni from "./figma.json";
+import vueAni from "./vue-js.json";
+import githubAni from "./github.json";
 
 const Lottie = () => {
   useEffect(() => {
@@ -15,7 +17,7 @@ const Lottie = () => {
       autoplay: true,
     });
   }, []);
-  return <div id="lottie-ani" style={{ width: 80, height: 80 }}></div>;
+  return <div id="lottie-ani" style={{ width: 100, height: 100 }}></div>;
 };
 
 const Html = () => {
@@ -54,6 +56,18 @@ const LottieReact = () => {
   return <div id="react-ani" style={{ width: 100, height: 100, overflow: "hidden" }}></div>;
 };
 
+const Lottievue = () => {
+  useEffect(() => {
+    lottie.loadAnimation({
+      container: document.querySelector("#vue-ani"),
+      animationData: vueAni,
+      loop: true,
+      autoplay: true,
+    });
+  }, []);
+  return <div id="vue-ani" style={{ width: 100, height: 100, overflow: "hidden" }}></div>;
+};
+
 const Figma = () => {
   useEffect(() => {
     lottie.loadAnimation({
@@ -63,7 +77,19 @@ const Figma = () => {
       autoplay: true,
     });
   }, []);
-  return <div id="figma-ani" style={{ width: 100, height: 100, overflow: "hidden" }}></div>;
+  return <div id="figma-ani" style={{ width: 80, height: 80, overflow: "hidden", marginTop: 10, }}></div>;
 };
 
-export { Lottie, Html, Js, LottieReact, Figma };
+const Lottiegithub = () => {
+  useEffect(() => {
+    lottie.loadAnimation({
+      container: document.querySelector("#github-ani"),
+      animationData: githubAni,
+      loop: true,
+      autoplay: true,
+    });
+  }, []);
+  return <div id="github-ani" style={{ width: 100, height: 100, overflow: "hidden" }}></div>;
+};
+
+export { Lottie, Html, Js, LottieReact, Figma, Lottievue, Lottiegithub };

@@ -1,12 +1,7 @@
-import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import AOS from "aos";
 import "../css/Section4.css";
 
 export default function Section4() {
-  useEffect(() => {
-    AOS.init();
-  });
   return (
     <div className="Section4">
       <Container fluid="container-xxl" className="Section4_inner Section4_pd">

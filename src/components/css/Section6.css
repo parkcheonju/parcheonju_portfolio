@@ -2,18 +2,24 @@
   max-width: 1550px;
   height: 100%;
   margin: 0 auto;
+  display: flex;
+}
+.Section6_div{
+  width: 50%;
 }
 .Section6_pd{
   padding: 160px 0;
 }
 .Section6_container{
-  width: 100%;
-  height: 580px;
+  width: 80%;
   display: flex;
   flex-direction: column;
 }
 .Section6_top{
   height: 88px;
+}
+.Section6_pd-top{
+  padding-top: 60px
 }
 .Section6_top h2{
   font-size: 4rem;
@@ -21,13 +27,12 @@
   font-weight: 700;
 } 
 .Section6_bottom{
-  width: 100%;
   margin-top: 60px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 .Section6_bottom-approach{
-  width: 45%;
+  width: 100%;
   border-top: 2px solid black;
 }
 .Section6_approach-title{
@@ -38,7 +43,6 @@
 }
 .Section6_approach-title h3{
   margin-top: 0.3125rem;
-
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
@@ -47,19 +51,6 @@
   font-size: 1.125rem;
   margin-top: 2.5rem;
 }
-
-@media (min-width: 1580px){
-  .container-xxl {
-    max-width: 1550px;
-  }
-}
-@media (min-width: 1400px){
-  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1320px;
-  }
-}@media (min-width: 1200px){
-  .col-xl-4 {
-    flex: 0 0 auto;
-    width: 30%;
-  }
+.Section6_approach-flex{
+  display: flex;
 }
