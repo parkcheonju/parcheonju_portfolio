@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { Html, Js, LottieReact, Lottievue, Figma, Lottiegithub } from "../Lottie/lottie";
+import { Html, Js, LottieReact, Lottievue, Figma, Lottiegithub, Lottienodejs } from "../Lottie/lottie";
 
 import "../css/Section6.css";
 
@@ -7,43 +7,6 @@ export default function Section6() {
   return (
     <div className="Section6">
       <Container fluid="container-xxl" className="Section6_inner Section6_pd">
-        <div className="Section6_div">
-          <div className="Section6_container">
-            <div className="Section6_top" data-aos="fade-up" data-aos-delay="500">
-              <h2>Skill</h2>
-            </div>
-            <Row className="Section6_bottom" data-aos="fade-up" data-aos-delay="500">
-              <Col className="Section6_bottom-approach">
-                <div className="Section6_approach-title">
-                  <span>Front End</span>
-                  <h3>프론트엔드</h3>
-                </div>
-                <div className="Section6_approach-description Section6_approach-flex">
-                  <Html />
-                  <Js />
-                  <LottieReact />
-                  <Lottievue />
-                  <Lottiegithub/>
-                  <Figma />
-                </div>
-              </Col>
-              <div className="Section6_pd-top">
-                <Col className="Section6_bottom-approach">
-                  <div className="Section6_approach-title">
-                    <span>Back End</span>
-                    <h3>백엔드</h3>
-                  </div>
-                  <div className="Section6_approach-description">
-                    <ul>
-                      <li>NodeJs</li>
-                      <li>MongoDB</li>
-                    </ul>
-                  </div>
-                </Col>
-              </div>
-            </Row>
-          </div>
-        </div>
         <div className="Section6_div">
           <div className="Section6_container">
             <div className="Section6_top" data-aos="fade-up" data-aos-delay="500">
@@ -82,6 +45,34 @@ export default function Section6() {
                   </div>
                 </Col>
               </div>
+            </Row>
+          </div>
+        </div>
+        <div className="Section6_div">
+          <div className="Section6_container">
+            <div className="Section6_top" data-aos="fade-up" data-aos-delay="500">
+              <h2>Skills</h2>
+            </div>
+            <Row className="Section6_bottom" data-aos="fade-up" data-aos-delay="500">
+              <Col className="Section6_bottom-approach">
+                <div className="Section6_approach-title">
+                  <span>Developer</span>
+                  <h3>프론트엔드</h3>
+                </div>
+                <div className="Section6_approach-description">
+                 <ul className='Section6_approach-flex Section6_pd2'>
+                  <li><Html /></li>
+                  <li><Js /></li>
+                  <li><LottieReact /></li>
+                  <li><Lottievue /></li>
+                 </ul>
+                 <ul className='Section6_approach-flex2 Section6_pd2'>
+                 <li><Lottienodejs/></li>
+                  <li className='Section6_pd3'><Lottiegithub /></li>
+                  <li className='Section6_pd3'><Figma /></li>
+                 </ul>
+                </div>
+              </Col>
             </Row>
           </div>
         </div>

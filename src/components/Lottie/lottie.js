@@ -1,24 +1,15 @@
 import React, { useEffect } from "react";
 import lottie from "lottie-web";
-import lottieAni from "./logo.json";
+
 import htmlAni from "./html.json";
 import jsAni from "./js.json";
 import reactAni from "./react.json";
 import figmaAni from "./figma.json";
 import vueAni from "./vue-js.json";
 import githubAni from "./github.json";
+import nodejsAni from "./nodejs.json";
 
-const Lottie = () => {
-  useEffect(() => {
-    lottie.loadAnimation({
-      container: document.querySelector("#lottie-ani"),
-      animationData: lottieAni,
-      loop: true,
-      autoplay: true,
-    });
-  }, []);
-  return <div id="lottie-ani" style={{ width: 100, height: 100 }}></div>;
-};
+
 
 const Html = () => {
   useEffect(() => {
@@ -29,7 +20,7 @@ const Html = () => {
       autoplay: true,
     });
   }, []);
-  return <div id="html-ani" style={{ width: 100, height: 100, overflow: "hidden" }}></div>;
+  return <div id="html-ani" style={{ width: 150, height: 150,  overflow: "hidden" }}></div>;
 };
 
 const Js = () => {
@@ -41,7 +32,7 @@ const Js = () => {
       autoplay: true,
     });
   }, []);
-  return <div id="js-ani" style={{ width: 100, height: 100, overflow: "hidden" }}></div>;
+  return <div id="js-ani" style={{ width: 150, height: 150, overflow: "hidden" }}></div>;
 };
 
 const LottieReact = () => {
@@ -53,7 +44,7 @@ const LottieReact = () => {
       autoplay: true,
     });
   }, []);
-  return <div id="react-ani" style={{ width: 100, height: 100, overflow: "hidden" }}></div>;
+  return <div id="react-ani" style={{ width: 150, height: 150, overflow: "hidden" }}></div>;
 };
 
 const Lottievue = () => {
@@ -65,7 +56,7 @@ const Lottievue = () => {
       autoplay: true,
     });
   }, []);
-  return <div id="vue-ani" style={{ width: 100, height: 100, overflow: "hidden" }}></div>;
+  return <div id="vue-ani" style={{ width: 150, height: 150, overflow: "hidden" }}></div>;
 };
 
 const Figma = () => {
@@ -77,7 +68,7 @@ const Figma = () => {
       autoplay: true,
     });
   }, []);
-  return <div id="figma-ani" style={{ width: 80, height: 80, overflow: "hidden", marginTop: 10, }}></div>;
+  return <div id="figma-ani" style={{ width: 130, height: 130, overflow: "hidden", marginTop: 10 }}></div>;
 };
 
 const Lottiegithub = () => {
@@ -89,7 +80,19 @@ const Lottiegithub = () => {
       autoplay: true,
     });
   }, []);
-  return <div id="github-ani" style={{ width: 100, height: 100, overflow: "hidden" }}></div>;
+  return <div id="github-ani" style={{ width: 150, height: 150, overflow: "hidden" }}></div>;
 };
 
-export { Lottie, Html, Js, LottieReact, Figma, Lottievue, Lottiegithub };
+const Lottienodejs = () => {
+  useEffect(() => {
+    lottie.loadAnimation({
+      container: document.querySelector("#nodejs-ani"),
+      animationData: nodejsAni,
+      loop: true,
+      autoplay: true,
+    });
+  }, []);
+  return <div id="nodejs-ani" style={{ width: 150, height: 150, overflow: "hidden" }}></div>;
+};
+
+export { Html, Js, LottieReact, Figma, Lottievue, Lottiegithub, Lottienodejs };

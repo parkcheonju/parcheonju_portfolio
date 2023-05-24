@@ -10,6 +10,12 @@
 .Section6_pd{
   padding: 160px 0;
 }
+.Section6_pd2{
+  padding: 10px 0;
+}
+.Section6_pd3{
+  padding-left: 15px;
+}
 .Section6_container{
   width: 80%;
   display: flex;
@@ -52,5 +58,9 @@
   margin-top: 2.5rem;
 }
 .Section6_approach-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.Section6_approach-flex2{
   display: flex;
 }
