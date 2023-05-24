@@ -60,17 +60,17 @@ export default function Section6() {
                   <h3>프론트엔드</h3>
                 </div>
                 <div className="Section6_approach-description">
-                 <ul className='Section6_approach-flex Section6_pd2'>
-                  <li><Html /></li>
-                  <li><Js /></li>
-                  <li><LottieReact /></li>
-                  <li><Lottievue /></li>
-                 </ul>
-                 <ul className='Section6_approach-flex2 Section6_pd2'>
-                 <li><Lottienodejs/></li>
-                  <li className='Section6_pd3'><Lottiegithub /></li>
-                  <li className='Section6_pd3'><Figma /></li>
-                 </ul>
+                  <div className="Section6_approach-flex Section6_pd2">
+                    <Html />
+                    <Js />
+                    <LottieReact />
+                    <Lottievue />
+                  </div>
+                  <div className="Section6_approach-flex2 Section6_pd2">
+                    <Lottienodejs />
+                    <Lottiegithub className="Section6_pd3" />
+                    <Figma className="Section6_pd3" />
+                  </div>
                 </div>
               </Col>
             </Row>
