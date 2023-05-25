@@ -46,7 +46,7 @@ export default function Footer() {
                     </div>
                     <textarea type="text" name="user_message" className="footer_mgtop input_email" rows="10" cols="54" placeholder="회사 정보를 입력하는 공간입니다" required />
                     <div className="form-button mt-3">
-                      <button id="submit" type="submit" className="btn btn-primary send_email">
+                      <button id="submit" type="submit" className="btn btn-color send_email">
                         보내기
                       </button>
                     </div>
