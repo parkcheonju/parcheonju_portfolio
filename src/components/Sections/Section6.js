@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { Html, Js, LottieReact, Lottievue, Figma, Lottiegithub, Lottienodejs } from "../Lottie/lottie";
+import { Html, Js, LottieReact, Lottievue, Figma, Lottiegithub, Lottienodejs,Lottiecss } from "../Lottie/lottie";
 
 import "../css/Section6.css";
 
@@ -57,16 +57,17 @@ export default function Section6() {
               <Col className="Section6_bottom-approach">
                 <div className="Section6_approach-title">
                   <span>Developer</span>
-                  <h3>프론트엔드</h3>
+                  <h3>프론트엔드 기술</h3>
                 </div>
                 <div className="Section6_approach-description">
                   <div className="Section6_approach-flex Section6_pd2">
                     <Html />
-                    <Js />
+                    <Lottiecss/>
+                    <Js/>
                     <LottieReact />
-                    <Lottievue />
                   </div>
-                  <div className="Section6_approach-flex2 Section6_pd2">
+                  <div className="Section6_approach-flex Section6_pd2">
+                    <Lottievue />
                     <Lottienodejs />
                     <Lottiegithub className="Section6_pd3" />
                     <Figma className="Section6_pd3" />

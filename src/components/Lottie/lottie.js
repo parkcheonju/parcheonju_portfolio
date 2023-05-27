@@ -8,6 +8,7 @@ import figmaAni from "./figma.json";
 import vueAni from "./vue-js.json";
 import githubAni from "./github.json";
 import nodejsAni from "./nodejs.json";
+import cssAni from "./css.json";
 
 
 
@@ -21,6 +22,18 @@ const Html = () => {
     });
   }, []);
   return <div id="html-ani" style={{ width: 150, height: 150,  overflow: "hidden" }}></div>;
+};
+
+const Lottiecss = () => {
+  useEffect(() => {
+    lottie.loadAnimation({
+      container: document.querySelector("#css-ani"),
+      animationData: cssAni,
+      loop: true,
+      autoplay: true,
+    });
+  }, []);
+  return <div id="css-ani" style={{ width: 150, height: 150,  overflow: "hidden" }}></div>;
 };
 
 const Js = () => {
@@ -44,7 +57,7 @@ const LottieReact = () => {
       autoplay: true,
     });
   }, []);
-  return <div id="react-ani" style={{ width: 150, height: 150, overflow: "hidden" }}></div>;
+  return <div id="react-ani" style={{ width: 120, height: 150, overflow: "hidden" }}></div>;
 };
 
 const Lottievue = () => {
@@ -95,4 +108,4 @@ const Lottienodejs = () => {
   return <div id="nodejs-ani" style={{ width: 150, height: 150, overflow: "hidden" }}></div>;
 };
 
-export { Html, Js, LottieReact, Figma, Lottievue, Lottiegithub, Lottienodejs };
+export { Html, Lottiecss, Js, LottieReact, Figma, Lottievue, Lottiegithub, Lottienodejs };
