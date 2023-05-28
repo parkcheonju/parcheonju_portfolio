@@ -76,6 +76,49 @@
   }
 }
 
+@media (max-width: 1400px) {
+  .Section1_left{
+    margin-left: 200px;
+  }
+  .Section1_inner{
+    background-position: 850px 100px;
+  }
+
+}
+
+@media (max-width: 1400px) {
+  .Section1_inner{
+    background-position: 800px 150px;  
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .col-xl-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+  .col-xl-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+  .Section1_inner{
+    background-position: 700px 150px;  
+  }
+  .Section1_left-title h1{
+    font-size: 4.2em;
+  }
+  .Section1_left-text1 p {
+    font-size: 2rem;
+  }
+  .Section1_left-site{
+    width: 50%;
+  }
+  .Section1_left-btn{
+    margin-bottom: 40px;
+  }
+}
+
 @media (min-width: 1200px) {
   .col-xl-9 {
     flex: 0 0 auto;
@@ -84,5 +127,85 @@
   .col-xl-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .Section1_left{
+    margin-left: 100px;
+  }
+  .Section1_left-site{
+    width: 50%;
+  }
+}
+
+@media (max-width: 940px) {
+  .Section1_left{
+    margin-left: 50px;
+  }
+  .Section1_inner{
+    background-size: 250px;
+    background-position: 550px 150px;  
+  }
+}
+
+@media (max-width: 768px) {
+  .Section1_left{
+    margin-left: 10px;
+  }
+  .Section1_inner{
+    background-size: 250px;
+    background-position: 450px 200px;  
+  }
+  .Section1_left-site{
+    width: 70%;
+  }
+}
+@media (max-width: 700px) {
+  .Section1_inner{
+    background-size: 230px;
+    background-position: 400px 200px;  
+  }
+  .Section1_left-site{
+    width: 70%;
+  }
+  .Section1_left-title h1{
+    font-size: 3em;
+  }
+  .Section1_left-text1 p {
+    font-size: 1.3rem;
+  }
+  .Section1_left-btn a {
+    padding: 15px 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .Section1_inner{
+    padding: 80px 0;
+    background-size: 180px;
+    background-position: 230px 100px;  
+  }
+  .Section1_left{
+    margin-left: 10px;
+  }
+  .Section1_left-site{
+    width: 100%;
+  }
+  .Section1_left-btn a {
+    padding: 8px 8px;
+  }
+  .Section1_left-btn{
+    margin-bottom: 20px;
+  }
+  .Section1_left-site{
+    padding-top: 60px;
+  }
+  .Section1_left-title h1{
+    font-size: 2.2em;
+  }
+  .Section1_left-text1 p {
+    font-size: 1rem;
   }
 }
