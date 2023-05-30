@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { Html, Js, LottieReact, Lottievue, Figma, Lottiegithub, Lottienodejs,Lottiecss } from "../Lottie/lottie";
+import { Html, Js, LottieReact, Lottievue, Figma, Lottiegithub, Lottienodejs, Lottiecss } from "../Lottie/lottie";
 
 import "../css/Section6.css";
 
@@ -7,7 +7,7 @@ export default function Section6() {
   return (
     <div className="Section6">
       <Container fluid="container-xxl" className="Section6_inner Section6_pd">
-        <div className="Section6_div">
+        <div className="Section6-mgleft">
           <div className="Section6_container">
             <div className="Section6_top" data-aos="fade-up" data-aos-delay="500">
               <h2>About Me</h2>
@@ -47,9 +47,7 @@ export default function Section6() {
               </div>
             </Row>
           </div>
-        </div>
-        <div className="Section6_div">
-          <div className="Section6_container">
+          <div className="Section6_container Section6_container2">
             <div className="Section6_top" data-aos="fade-up" data-aos-delay="500">
               <h2>Skills</h2>
             </div>
@@ -62,8 +60,8 @@ export default function Section6() {
                 <div className="Section6_approach-description">
                   <div className="Section6_approach-flex Section6_pd2">
                     <Html />
-                    <Lottiecss/>
-                    <Js/>
+                    <Lottiecss />
+                    <Js />
                     <LottieReact />
                   </div>
                   <div className="Section6_approach-flex Section6_pd2">
