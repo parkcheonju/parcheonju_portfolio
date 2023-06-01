@@ -34,25 +34,27 @@
   padding: 30px 0;
 }
 .Section3_container-flex2 {
-  width: 30%;
-  height: 740px;
+  width: 450px;
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(128, 128, 128, 0.227);
 }
 .Section3_project {
-  position: relative;
   overflow: hidden;
-  width: 410px;
-  padding-top: 20px;
+  padding: 30px;
   margin: 0 auto;
 }
 
 /*===========Section3_project-top===========*/
+.Section3_project-top{
+  display: flex;
+  justify-content: space-around;
+}
 
 .Section3_project-top img {
   width: 410px;
   height: 245px;
+  border: 1px solid rgba(128, 128, 128, 0.227);
 }
 .Section3_top-text {
   padding: 1.25rem 1.5rem;
@@ -110,11 +112,14 @@
 
 
 .Section3_bottom-btn2{
-  margin-top: 40px;
+  padding-top: 40px;
   display: flex;
+  justify-content: space-between;
 }
 
+
 .Section3_left-btn a {
+  display: block;
   padding: 20px 30px;
   background-color: black;
   color: white;
@@ -135,6 +140,7 @@
 }
 
 .Section3_left-btn2 a {
+  display: block;
   padding: 20px 30px;
   background-color: white;
   color: black;
@@ -150,7 +156,7 @@
 }
 
 .Section3_bottom-dsc{
-  margin: 30px 0 0 20px;
+  padding: 30px;
 }
 .Section3_bottom-dsc span{
   color: gray;
@@ -158,15 +164,12 @@
 }
 
 .Section3_bottom-ul2{
-  width: 410px;
-  margin: 20px 0;
   border-top: 2px solid gray;
 }
 .Section3_bottom-li2{
   margin-top: 5px;
 }
-.mt-30{
-  margin-top: 30px;
+.pd-30{
+  padding-top: 30px;
 }
-
 

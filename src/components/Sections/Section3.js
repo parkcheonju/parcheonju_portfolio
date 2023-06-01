@@ -15,7 +15,7 @@ export default function Section3() {
       description3: "3. JQury를 이용하여 게시판 탭 이동 기능 구현",
       description4: "4. bx slider 활용하여 캐로셀 기능 구현",
       description5: "5. 구글 애널리틱스적용하여 방문자의 데이터 웹 로그 분석",
-      description6: "6. 공공데이터포털api를 활용하여 기상정보 및 대기환경 정보 파싱",
+      description6: "6. 공공데이터포털api 활용, 기상정보 및 대기환경 정보 파싱",
       githubLink: "https://github.com/parkcheonju/project",
       pageLink: "https://parkcheonju.github.io/project/",
     },
@@ -41,7 +41,7 @@ export default function Section3() {
       description1: "1. 구현기술 : Html, Css, Vue.js, Node.js",
       description2: "2. 개인 프로젝트 (기여도 100%)",
       description3: "3. Vue.js 제공 문법 사용 (v-if, v-for 등)",
-      description4: "4. NodeJs + Express 사용, Server Multer 파일 업로드 로직 구축",
+      description4: "4. NodeJs + Express 사용, Server 파일 업로드 로직 구축",
       description5: "5. Axios RESTful API 요청을 보내고 응답 값 파싱 및 처리",
       description6: "6. Mitt 라이브러리 사용, 다른 컴포넌트로 데이터 전송 로직 작성",
       githubLink: "https://github.com/parkcheonju/vue_sns_project",
@@ -58,7 +58,7 @@ export default function Section3() {
       description1: "1. 구현기술 : Html, Css, React, Node.js, Figma",
       description2: "2. 4인 팀 프로젝트 기획, 백엔드 담당 (기여도 35%)",
       description3: "3. Kakao Login 기능 구현",
-      description4: "4. NodeJs + Express 사용, Server Multer 파일 업로드 로직 구축",
+      description4: "4. NodeJs + Express 사용, Server 파일 업로드 로직 구축",
       description5: "5. Axios RESTful API 요청을 보내고 응답 값 파싱 및 처리",
       description6: "6. PWA(Progressive Web Application)앱 배포",
       githubLink: "https://github.com/parkcheonju/react_perpet-front",
@@ -71,10 +71,10 @@ export default function Section3() {
       imageSrc: "/images/perpet-server.png",
       description1: "1. 구현기술 : Node.js",
       description2: "2. 4인 팀 프로젝트 백엔드 담당 (기여도 80%)",
-      description3: "3. NodeJs + Express 사용, Server Multer 파일 업로드 로직 구축",
+      description3: "3. NodeJs + Express 사용, Server 파일 업로드 로직 구축",
       description4: "4. sequelize 활용 Product Table 구조 작성",
       description5: "5. Axios RESTful API 요청을 보내고 응답 값 파싱 및 처리",
-      description6: "6. Restful 방식으로 Front에서 상품 정보를 받아 페이지 정보 전달",
+      description6: "6. Restful 방식으로 Front에서 상품 정보를 페이지에 정보 전달",
       githubLink: "https://github.com/parkcheonju/react_perpet-server/tree/main",
       pageLink: "https://port-0-react-perpet-server-duzu222alg4pw0ie.sel3.cloudtype.app/products",
     },
@@ -120,7 +120,7 @@ export default function Section3() {
                     <span>Project {project.id}</span>
                     <h2>{project.projectName}</h2>
                     <ul className="Section3_bottom-ul2">
-                      <li className="Section3_bottom-li2 mt-30">{project.description1}</li>
+                      <li className="Section3_bottom-li2 pd-30">{project.description1}</li>
                       <li className="Section3_bottom-li2">{project.description2}</li>
                       <li className="Section3_bottom-li2">{project.description3}</li>
                       <li className="Section3_bottom-li2">{project.description4}</li>
@@ -157,7 +157,7 @@ export default function Section3() {
                       <span>Project {project.id}</span>
                       <h2>{project.projectName}</h2>
                       <ul className="Section3_bottom-ul2">
-                        <li className="Section3_bottom-li2 mt-30">{project.description1}</li>
+                        <li className="Section3_bottom-li2 pd-30">{project.description1}</li>
                         <li className="Section3_bottom-li2">{project.description2}</li>
                         <li className="Section3_bottom-li2">{project.description3}</li>
                         <li className="Section3_bottom-li2">{project.description4}</li>
