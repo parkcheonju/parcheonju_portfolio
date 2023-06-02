@@ -143,7 +143,7 @@ export default function Section3() {
                 </Col>
               ))}
             </div>
-              <div className="Section3_container-flex Section3_flex-inner">
+            <div className="Section3_container-flex Section3_flex-inner">
                 {projects2.map((project) => (
                   <Col className="col-xl-4 col-lg-4 Section3_container-flex2" key={project.id}>
                     <div className="grid-item filter-1 filter-4">
@@ -179,7 +179,7 @@ export default function Section3() {
                     </div>
                   </Col>
                 ))}
-              </div>
+            </div>
           </Row>
         </div>
       </Container>

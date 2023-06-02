@@ -66,7 +66,7 @@
 
 @media (max-width: 1400px) {
   .Section6-mgleft {
-    margin-left: 200px;
+    margin: 200px;
     width: 100%;
   }
 }
@@ -89,13 +89,13 @@
 
 @media (max-width: 1024px) {
   .Section6-mgleft {
-    width: 100%;
+    margin: 100px;
   }
 }
 
 @media (max-width: 940px) {
   .Section6-mgleft{
-    margin-left: 50px;
+    margin: 50px;
     width: 100%;
   }
 
@@ -103,8 +103,7 @@
 
 @media (max-width: 768px) {
   .Section6-mgleft{
-    margin-left: 10px;
-    width: 100%;
+    margin: 10px;
   }
   .Section6_top h2{
     font-size: 2.4rem;
