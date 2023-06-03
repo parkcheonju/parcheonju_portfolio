@@ -82,6 +82,9 @@
   .Section4_container {
     margin: 100px;
   }
+  .Section4_pd{
+    padding-bottom: 130px;
+  }
 }
 @media (max-width: 940px) {
   .Section4_container {
@@ -109,6 +112,9 @@
     width: 80%;
     margin-top: 30px;
   }
+  .Section4_pd{
+    padding-bottom: 90px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -127,5 +133,8 @@
   .Section4_bottom-approach{
     width: 100%;
     margin-top: 10px;
+  }
+  .Section4_pd{
+    padding-bottom: 30px;
   }
 }

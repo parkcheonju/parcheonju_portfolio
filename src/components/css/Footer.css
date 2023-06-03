@@ -10,10 +10,10 @@
   padding-top: 160px;
   display: flex;
 }
-.Footer_pd-bt{
+.Footer_pd-bt {
   padding-bottom: 100px;
 }
-.Footer_contact-mg{
+.Footer_contact-mg {
   margin-top: 80px;
 }
 .Footer_contact-1 {
@@ -86,16 +86,8 @@
 }
 
 .form-holder .form-content {
-  position: relative;
+  width: 80%;
   text-align: center;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
   align-items: center;
 }
 
@@ -104,7 +96,7 @@
   padding: 80px;
   display: inline-block;
   width: 100%;
-  min-width: 540px;
+  width: 540px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -192,6 +184,81 @@
   background-color: #ebeff8;
   color: #8d8d8d;
 }
-.footer_mgtop{
+.footer_mgtop {
   margin-top: 20px;
+}
+
+@media (max-width: 1400px) {
+  .Footer_container {
+    flex-direction: column;
+    margin: 200px;
+  }
+  .Footer_contact-1 {
+    width: 100%;
+    padding-top: 60px;
+  }
+  .Footer_contact-2 {
+    width: 100%;
+    padding-top: 120px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .Footer_contact-2 {
+    margin-top: 120px;
+    padding-top: 90px;
+  }
+  .Footer_container {
+    padding-top: 60px;
+    margin: 100px;
+  }
+}
+
+@media (max-width: 940px) {
+  .Footer_container {
+    padding-top: 30px;
+    margin: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Footer_contact-2 {
+    margin-top: 90px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .Footer_container {
+    padding-top: 10px;
+    margin: 10px;
+  }
+  .form-content .form-items{
+    width: 400px;
+  }
+  .Footer_pd-bt {
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .Footer_contact-2 {
+    margin-top: 60px;
+  }
+  .form-content .form-items{
+    width: 300px;
+  }
+}
+
+
+
+@media (max-width: 425px) {
+  .Footer_container {
+    padding-top: 0px;
+  }
+  .Footer_contact-2 {
+    margin-top: 30px;
+  }
+  .form-content .form-items{
+    width: 250px;
+  }
 }
