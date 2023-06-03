@@ -1,48 +1,131 @@
-.Section4_inner{
+.Section4_inner {
   max-width: 1550px;
   height: 100%;
   margin: 0 auto;
 }
-.Section4_pd{
+.Section4_pd {
   padding-bottom: 260px;
 }
-.Section4_container{
+.Section4_container {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.Section4_top{
+.Section4_top {
   height: 88px;
 }
-.Section4_top h2{
+.Section4_top h2 {
   font-size: 4rem;
   line-height: 1.1;
   font-weight: 700;
-} 
-.Section4_bottom{
+}
+.Section4_bottom {
   width: 100%;
   margin-top: 120px;
   display: flex;
   justify-content: space-between;
 }
-.Section4_bottom-approach{
+.Section4_bottom-approach {
   width: 32%;
   border-top: 2px solid black;
 }
-.Section4_approach-title{
+.Section4_approach-title {
   padding-top: 60px;
   font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
 }
-.Section4_approach-title h3{
+.Section4_approach-title h3 {
   margin-top: 0.3125rem;
 
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
 }
-.Section4_approach-description{
+.Section4_approach-description {
   font-size: 1.125rem;
   margin-top: 2.5rem;
+}
+
+@media (max-width: 1400px) {
+  .Section4_container {
+    margin: 200px;
+  }
+  .Section4_bottom{
+    flex-direction: column;
+  }
+  .Section4_bottom-approach{
+    width: 60%;
+    margin-top: 60px;
+  }
+}
+@media (max-width: 1200px) {
+  
+  .Section4_top h2 {
+    font-size: 3.2rem;
+  }
+  .Section4_approach-title h3 {
+    font-size: 2.2rem;
+  }
+  .Section4_approach-title span {
+    font-size: 1.1rem;
+  }
+  .Section4_bottom-approach{
+    width: 70%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Section4_bottom{
+    margin-top: 60px;
+  }
+  .Section4_container {
+    margin: 100px;
+  }
+}
+@media (max-width: 940px) {
+  .Section4_container {
+    margin: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Section4_bottom{
+    margin-top: 30px;
+  }
+  .Section4_container {
+    margin: 10px;
+  }
+  .Section4_top h2 {
+    font-size: 2.4rem;
+  }
+  .Section4_approach-title h3 {
+    font-size: 1.8rem;
+  }
+  .Section4_approach-title span {
+    font-size: 1.2rem;
+  }
+  .Section4_bottom-approach{
+    width: 80%;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .Section4_bottom{
+    margin-top: 10px;
+  }
+  .Section4_top h2 {
+    font-size: 2rem;
+  }
+  .Section4_approach-title h3 {
+    font-size: 1.4rem;
+  }
+  .Section4_approach-title span {
+    font-size: 1rem;
+  }
+  .Section4_bottom-approach{
+    width: 100%;
+    margin-top: 10px;
+  }
 }
