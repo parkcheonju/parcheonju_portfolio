@@ -138,15 +138,15 @@
   .Section1_left-site{
     width: 50%;
   }
+  .Section1_inner{
+    background-size: 280px;
+    background-position: 520px 200px;  
+  }
 }
 
 @media (max-width: 940px) {
   .Section1_left{
     margin-left: 50px;
-  }
-  .Section1_inner{
-    background-size: 250px;
-    background-position: 550px 150px;  
   }
 }
 
